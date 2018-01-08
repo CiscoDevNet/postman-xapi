@@ -2,7 +2,7 @@
 
 This repo gathers Postman collections for the [xAPI - API of the Cisco Collaboration Endpoint Software](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/software/ce9/release-notes/ce-software-release-notes-ce9.pdf).
 
-**Make sure to configure the collection with these environment variables: `{{endpoint}}` and `{{credentials}}` variables. Check the [Configure your Environment](docs/ConfigureEnvVariables.md) page for guidance**
+**Make sure to configure the collection with these environment variables: `{{endpoint}}` and `{{credentials}}`. Check the [Configure your Environment](docs/ConfigureEnvVariables.md) page for guidance**
 
 - [Admin role](#admin): use this collection is for Cisco Collaboration Endpoints that are registered on-premises and which you can access with an Admin account.
 

@@ -2,7 +2,7 @@
 
 This repo gathers Postman collections for the [xAPI - API of the Cisco Collaboration Endpoint Software](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/software/ce9/release-notes/ce-software-release-notes-ce9.pdf).
 
-**Make sure to configure the collection with these environment variables: `{{endpoint}}` and `{{credentials}}` variables. Check the [Import and configuration Guide](docs/ConfigureEnvironment.md) for details**
+**Make sure to configure the collection with these environment variables: `{{endpoint}}` and `{{credentials}}` variables. Check the [Configure your Environment](docs/ConfigureEnvVariables.md) page for guidance**
 
 - [Admin role](#admin): use this collection is for Cisco Collaboration Endpoints that are registered on-premises and which you can access with an Admin account.
 
@@ -23,7 +23,7 @@ If you're new to Postman, you're only a few steps away from getting the full ben
 
 ## [admin](https://raw.githubusercontent.com/CiscoDevNet/postman-xapi/master/xapi-admin.json)
 
-Use this collection is for Cisco Collaboration Endpoints that are registered on-premises and which you can access with an Admin account.
+Use this collection for Cisco Collaboration Endpoints that are registered on-premises and for which have Admin credentials.
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/b12cc191a2f46da710ec)
 
@@ -36,11 +36,11 @@ Use this collection is for Cisco Collaboration Endpoints that are registered on-
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/4a45667250ce5f166e19)
 
-The collection illustrates xAPI use cases for developers that apply to On-Premises registered devices.
+Use this collection for Cisco Collaboration Endpoints that are registered on-premises or Spark-registered and for which have Integrator credentials.
 
-![On-Premises Collection](docs/img/collection-xapi-spark-usecases.png)
+![On-Premises Collection](docs/img/collection-xapi-integrator.png)
 
 
 # How to contribute
 
-**We welcome pull requests for enhancements of existing collections, as well as contributions of collections that proved to be handy for you.  When submitting a new collection, please ensure it leverages a {{endpoint}} variable to ease environments sharing among collections. Thank you!** 
+**We welcome pull requests for enhancements of existing collections, as well as contributions of collections that proved to be handy for you.  When submitting a new collection, please ensure it leverages {{endpoint}} and {{credentials}} variables to ease mutualization of environments among collections. Thank you!** 

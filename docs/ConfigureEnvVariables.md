@@ -24,7 +24,7 @@ In the "Manage environments" list, click `Add` to create a new environment.
 
 
 Fill in the "New Environment Form" with a name ('xAPI - Roomkit' in the example below), and create a first `endpoint` variable.
-Enter the IP address of your device.
+Enter the IP address of your device prefixed by 'http://' or 'https://'.
 
 ![configure environment](img/environment-create.png)
 

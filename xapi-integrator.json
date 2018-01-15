@@ -1,7 +1,7 @@
 {
     "id": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
     "name": "xAPI (as Integrator)",
-    "description": "",
+    "description": "https://github.com/CiscoDevNet/postman-xapi",
     "order": [],
     "folders": [
         {
@@ -9,9 +9,10 @@
             "description": "",
             "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
             "order": [
-                "106c2622-3999-df79-45d6-88c17baee9a3",
-                "44ddbad2-255b-45b5-b859-25a8991ceb95",
-                "a5e24a11-3dab-5cad-c458-ef6f8a826544"
+                "192cfea8-7016-7d75-a223-bd3e3ad1acbe",
+                "3cf3429c-aa6b-8770-a807-c9141d65a8bb",
+                "1397c308-7c9a-3dc0-0e6a-384f0eccdd86",
+                "b7bd0f37-17cf-87cb-9a78-254ee621a2b8"
             ],
             "owner": "30210",
             "folders_order": [],
@@ -38,16 +39,16 @@
                     }
                 }
             ],
-            "id": "9c6b4f9e-305f-d00b-219a-fae5cb56a459"
+            "id": "b0ad3336-d8ee-0ede-0849-67ac81c56d4f"
         },
         {
             "name": "config & status",
             "description": "",
             "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
             "order": [
-                "4a2d9354-cbb2-847b-9c5a-39e4f29cd0b3",
-                "6344ace8-7072-443d-bf19-024ce4384daf",
-                "0d0f7770-e25a-5879-e97b-9ef1f552ae77"
+                "bb8c0cdc-b596-a17d-47f5-f8d78bbdd778",
+                "e9f2fc26-e43b-e5e8-117e-7316e5678431",
+                "242bbc9a-c852-accb-ab6f-70bb00f26b53"
             ],
             "owner": "30210",
             "folders_order": [],
@@ -74,17 +75,17 @@
                     }
                 }
             ],
-            "id": "cd11c13d-3a06-9ef1-1d7f-b11cbe59ed5a"
+            "id": "542b3361-754c-4bb8-21cf-74ca7e78921c"
         },
         {
             "name": "personalization",
             "description": "",
             "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
             "order": [
-                "812f39a2-1e28-0a91-a659-b35d45cc2a0d",
-                "89e5b771-4688-05a2-9160-df0c6264c146",
-                "87d4c342-7bb8-dd22-e365-459538f995ee",
-                "db40e340-3fd7-b7e8-0aa6-9aa61d919727"
+                "95aafe81-c78e-9ae8-70b1-1ad4f982cec1",
+                "52e95254-77ba-3bb3-1ae2-aa2d677544ab",
+                "c52f3cda-192a-1a21-4e77-db441ec8862b",
+                "d0798869-92ad-8dc4-d15e-83f8a1382d1c"
             ],
             "owner": "30210",
             "folders_order": [],
@@ -111,47 +112,91 @@
                     }
                 }
             ],
-            "id": "df1da4fc-1e4c-9921-3f0f-60b427be6fbc"
+            "id": "a4952b24-7878-6417-4264-c54f3e2195fa"
         },
         {
             "name": "room analytics",
-            "description": "",
+            "description": "Available only on room devices",
             "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
             "order": [
-                "193ed463-f261-b9ec-2603-b25433f0560d",
-                "9c28e5f7-46a3-d180-2845-634c75ff0a53",
-                "332a67b3-3796-7ea4-751b-741fbb499d0a",
-                "67b4ef41-b9c3-cbc1-f16b-98267c0ee287",
-                "4ea28c37-96f1-6b3c-8bf4-5a8a3d88a23f",
-                "a6a44e73-1eb1-59bd-bc74-99b6652976f7"
+                "27043386-5a84-26ca-1056-cc6d7e1375fc",
+                "644ebf14-54f8-5f6a-344d-1ba359767b9c",
+                "f506e81c-78d0-4a7a-f63b-ac95ae0b2e93",
+                "42ce86af-f276-6632-a437-95a2271ffef5",
+                "686fe608-b8eb-a0c0-9305-02a53fd0aeef",
+                "f178e154-56d5-1093-a35a-7fcfed62854f"
             ],
             "owner": "30210",
             "folders_order": [],
             "auth": null,
-            "id": "3d551c1b-0b04-7d0e-f235-a5efae35f49c"
+            "events": [
+                {
+                    "listen": "prerequest",
+                    "script": {
+                        "id": "66a3c99f-9313-4efc-a7ac-e5846929089f",
+                        "type": "text/javascript",
+                        "exec": [
+                            ""
+                        ]
+                    }
+                },
+                {
+                    "listen": "test",
+                    "script": {
+                        "id": "6ef83a3c-225b-45e2-b158-d67144d5aa1b",
+                        "type": "text/javascript",
+                        "exec": [
+                            ""
+                        ]
+                    }
+                }
+            ],
+            "id": "d64a1b85-98d3-8e26-0989-d665cbd30320"
         },
         {
             "name": "standby",
             "description": "",
             "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
             "order": [
-                "2472faeb-3350-7c6f-c7a2-ed3f63898ae5",
-                "9573d12f-5ff4-091c-32ab-04324deb539c",
-                "a96cb6c7-8a62-4ea3-b7e8-139bb3f6a137",
-                "91616d22-e7dd-e118-8eb1-2a6d98f77861"
+                "28a382b2-5610-f3a0-68d9-4c27e589f1a0",
+                "59d62543-e6d4-5795-820f-c2fd362f2c92",
+                "46cb51c3-1217-a610-1d7c-03f26969d103",
+                "787373f0-6ef4-7885-8cc6-e28718e64e42"
             ],
             "owner": "30210",
             "folders_order": [],
             "auth": null,
-            "id": "5066324e-45ee-073b-6836-15fd538b00c8"
+            "events": [
+                {
+                    "listen": "prerequest",
+                    "script": {
+                        "id": "ea37581c-f9bc-4b3f-b9c8-e53f837e7e93",
+                        "type": "text/javascript",
+                        "exec": [
+                            ""
+                        ]
+                    }
+                },
+                {
+                    "listen": "test",
+                    "script": {
+                        "id": "83b99beb-3990-4d5f-84f4-a0b6babdc2ce",
+                        "type": "text/javascript",
+                        "exec": [
+                            ""
+                        ]
+                    }
+                }
+            ],
+            "id": "af5ad2d2-832c-7557-134a-2392b1a8f77a"
         }
     ],
     "folders_order": [
-        "cd11c13d-3a06-9ef1-1d7f-b11cbe59ed5a",
-        "5066324e-45ee-073b-6836-15fd538b00c8",
-        "9c6b4f9e-305f-d00b-219a-fae5cb56a459",
-        "df1da4fc-1e4c-9921-3f0f-60b427be6fbc",
-        "3d551c1b-0b04-7d0e-f235-a5efae35f49c"
+        "542b3361-754c-4bb8-21cf-74ca7e78921c",
+        "af5ad2d2-832c-7557-134a-2392b1a8f77a",
+        "b0ad3336-d8ee-0ede-0849-67ac81c56d4f",
+        "a4952b24-7878-6417-4264-c54f3e2195fa",
+        "d64a1b85-98d3-8e26-0989-d665cbd30320"
     ],
     "timestamp": 1515183754605,
     "owner": "30210",
@@ -182,46 +227,12 @@
     "auth": null,
     "requests": [
         {
-            "id": "0d0f7770-e25a-5879-e97b-9ef1f552ae77",
-            "headers": "Authorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "enabled": true,
-                    "description": ""
-                }
-            ],
-            "url": "http://{{endpoint}}/configuration.xml",
-            "queryParams": [],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "GET",
-            "data": null,
-            "dataMode": "params",
-            "version": 2,
-            "auth": null,
-            "time": 1512979768594,
-            "name": "Configuration",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "timestamp": null,
-            "isFromCollection": true,
-            "collectionRequestId": "0d0f7770-e25a-5879-e97b-9ef1f552ae77",
-            "collection_id": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "folder": "cd11c13d-3a06-9ef1-1d7f-b11cbe59ed5a",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "106c2622-3999-df79-45d6-88c17baee9a3",
-            "headers": "Content-Type: application/xml\nAuthorization: Basic {{credentials}}\n",
+            "id": "1397c308-7c9a-3dc0-0e6a-384f0eccdd86",
+            "headers": "Content-Type: text/xml\nAuthorization: Basic {{credentials}}\n",
             "headerData": [
                 {
                     "key": "Content-Type",
-                    "value": "application/xml",
+                    "value": "text/xml",
                     "description": "",
                     "enabled": true
                 },
@@ -232,37 +243,187 @@
                     "enabled": true
                 }
             ],
-            "url": "http://{{endpoint}}/putxml",
-            "folder": "9c6b4f9e-305f-d00b-219a-fae5cb56a459",
+            "url": "{{endpoint}}/putxml",
             "queryParams": [],
-            "events": [],
+            "events": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "id": "33195335-6a1a-4aed-ab5b-40626ed72ae2",
+                        "type": "text/javascript",
+                        "exec": [
+                            "if (responseCode.code != 200) {",
+                            "    tests[\"Start SIP call to Space: failed\"] = false;",
+                            "}",
+                            "else {",
+                            "    tests[\"Start SIP call to Space: success\"] = true;",
+                            "",
+                            "    var xmlData = xml2Json(responseBody);",
+                            "    console.log(xmlData);",
+                            "    if (!xmlData) {",
+                            "        tests[\"Start SIP call to Space: parseing response as XML\"] = false;",
+                            "    }",
+                            "    else {",
+                            "        tests[\"Start SIP call to Space: parseing response as XML\"] = true;",
+                            "        if ((!xmlData.Command) || (!xmlData.Command.DialResult) || (!xmlData.Command.DialResult.CallId)) {",
+                            "            tests[\"Start SIP call to Space: checking XML payload\"] = false;",
+                            "        }",
+                            "        else {",
+                            "            tests[\"Start SIP call to Space: checking XML payload\"] = true;",
+                            "",
+                            "            var callId = xmlData.Command.DialResult.CallId;",
+                            "            postman.setEnvironmentVariable(\"_call\", callId);",
+                            "            tests[\"Start SIP call to Space: retreived Call with id:\" + callId] = true",
+                            "        }",
+                            "    }",
+                            "}",
+                            "    ",
+                            "    "
+                        ]
+                    }
+                }
+            ],
             "pathVariables": [],
             "pathVariableData": [],
             "method": "POST",
             "data": [],
             "dataMode": "raw",
             "auth": null,
-            "time": 1515423166253,
+            "time": 1516020429009,
+            "name": "Command Call (SIP - Spark space)",
+            "description": "",
+            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
+            "responses": [],
+            "isFromCollection": true,
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "rawModeData": "<Command>\r\n\t<Dial>\r\n\t\t<Number>88430972830@meet.ciscospark.com</Number>\r\n\t</Dial>\r\n</Command>",
+            "folder": "b0ad3336-d8ee-0ede-0849-67ac81c56d4f",
+            "preRequestScript": null,
+            "tests": "if (responseCode.code != 200) {\n    tests[\"Start SIP call to Space: failed\"] = false;\n}\nelse {\n    tests[\"Start SIP call to Space: success\"] = true;\n\n    var xmlData = xml2Json(responseBody);\n    console.log(xmlData);\n    if (!xmlData) {\n        tests[\"Start SIP call to Space: parseing response as XML\"] = false;\n    }\n    else {\n        tests[\"Start SIP call to Space: parseing response as XML\"] = true;\n        if ((!xmlData.Command) || (!xmlData.Command.DialResult) || (!xmlData.Command.DialResult.CallId)) {\n            tests[\"Start SIP call to Space: checking XML payload\"] = false;\n        }\n        else {\n            tests[\"Start SIP call to Space: checking XML payload\"] = true;\n\n            var callId = xmlData.Command.DialResult.CallId;\n            postman.setEnvironmentVariable(\"_call\", callId);\n            tests[\"Start SIP call to Space: retreived Call with id:\" + callId] = true\n        }\n    }\n}\n    \n    ",
+            "currentHelper": null,
+            "helperAttributes": null
+        },
+        {
+            "id": "192cfea8-7016-7d75-a223-bd3e3ad1acbe",
+            "headers": "Content-Type: text/xml\nAuthorization: Basic {{credentials}}\n",
+            "headerData": [
+                {
+                    "key": "Content-Type",
+                    "value": "text/xml",
+                    "description": "",
+                    "enabled": true
+                },
+                {
+                    "key": "Authorization",
+                    "value": "Basic {{credentials}}",
+                    "description": "",
+                    "enabled": true
+                }
+            ],
+            "url": "{{endpoint}}/putxml",
+            "queryParams": [],
+            "events": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "id": "00810ab5-640c-4367-98a6-db48ef9abcba",
+                        "type": "text/javascript",
+                        "exec": [
+                            "if (responseCode.code != 200) {",
+                            "    tests[\"Start SIP call: failed\"] = false;",
+                            "}",
+                            "else {",
+                            "    tests[\"Start SIP call: success\"] = true;",
+                            "",
+                            "    var xmlData = xml2Json(responseBody);",
+                            "    console.log(xmlData);",
+                            "    if (!xmlData) {",
+                            "        tests[\"Start SIP call: parseing response as XML\"] = false;",
+                            "    }",
+                            "    else {",
+                            "        tests[\"Start SIP call: parseing response as XML\"] = true;",
+                            "        if ((!xmlData.Command) || (!xmlData.Command.DialResult) || (!xmlData.Command.DialResult.CallId)) {",
+                            "            tests[\"Start SIP call: checking XML payload\"] = false;",
+                            "        }",
+                            "        else {",
+                            "            tests[\"Start SIP call: checking XML payload\"] = true;",
+                            "",
+                            "            var callId = xmlData.Command.DialResult.CallId;",
+                            "            postman.setEnvironmentVariable(\"_call\", callId);",
+                            "            tests[\"Start SIP call: retreived Call with id:\" + callId] = true",
+                            "        }",
+                            "    }",
+                            "}",
+                            "    ",
+                            "    "
+                        ]
+                    }
+                }
+            ],
+            "pathVariables": [],
+            "pathVariableData": [],
+            "method": "POST",
+            "data": [],
+            "dataMode": "raw",
+            "auth": null,
+            "time": 1516020597223,
             "name": "Command Call (SIP)",
             "description": "",
             "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
             "responses": [],
+            "isFromCollection": true,
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "rawModeData": "<Command>\r\n\t<Dial>\r\n\t\t<Number>roomkit@sparkdemos.com</Number>\r\n\t</Dial>\r\n</Command>",
+            "folder": "b0ad3336-d8ee-0ede-0849-67ac81c56d4f",
+            "preRequestScript": null,
+            "tests": "if (responseCode.code != 200) {\n    tests[\"Start SIP call: failed\"] = false;\n}\nelse {\n    tests[\"Start SIP call: success\"] = true;\n\n    var xmlData = xml2Json(responseBody);\n    console.log(xmlData);\n    if (!xmlData) {\n        tests[\"Start SIP call: parseing response as XML\"] = false;\n    }\n    else {\n        tests[\"Start SIP call: parseing response as XML\"] = true;\n        if ((!xmlData.Command) || (!xmlData.Command.DialResult) || (!xmlData.Command.DialResult.CallId)) {\n            tests[\"Start SIP call: checking XML payload\"] = false;\n        }\n        else {\n            tests[\"Start SIP call: checking XML payload\"] = true;\n\n            var callId = xmlData.Command.DialResult.CallId;\n            postman.setEnvironmentVariable(\"_call\", callId);\n            tests[\"Start SIP call: retreived Call with id:\" + callId] = true\n        }\n    }\n}\n    \n    ",
             "currentHelper": null,
-            "helperAttributes": null,
-            "rawModeData": "<Command>\r\n <Dial>\r\n \t<Number>roomkit@sparkdemos.com</Number>\r\n </Dial>\r\n</Command>"
+            "helperAttributes": null
         },
         {
-            "id": "193ed463-f261-b9ec-2603-b25433f0560d",
+            "id": "242bbc9a-c852-accb-ab6f-70bb00f26b53",
             "headers": "Authorization: Basic {{credentials}}\n",
             "headerData": [
                 {
                     "key": "Authorization",
                     "value": "Basic {{credentials}}",
-                    "enabled": true,
-                    "description": ""
+                    "description": "",
+                    "enabled": true
                 }
             ],
-            "url": "http://{{endpoint}}/getxml?location=/Status/RoomAnalytics/PeopleCount",
+            "url": "{{endpoint}}/configuration.xml",
+            "queryParams": [],
+            "events": [],
+            "pathVariables": [],
+            "pathVariableData": [],
+            "method": "GET",
+            "data": null,
+            "dataMode": "params",
+            "version": 2,
+            "auth": null,
+            "time": 1516018915095,
+            "name": "Configuration",
+            "description": "",
+            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
+            "responses": [],
+            "isFromCollection": true,
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "folder": "542b3361-754c-4bb8-21cf-74ca7e78921c",
+            "currentHelper": null,
+            "helperAttributes": null
+        },
+        {
+            "id": "27043386-5a84-26ca-1056-cc6d7e1375fc",
+            "headers": "Authorization: Basic {{credentials}}\n",
+            "headerData": [
+                {
+                    "key": "Authorization",
+                    "value": "Basic {{credentials}}",
+                    "description": "",
+                    "enabled": true
+                }
+            ],
+            "url": "{{endpoint}}/getxml?location=/Status/RoomAnalytics/PeopleCount",
             "queryParams": [
                 {
                     "key": "location",
@@ -280,36 +441,32 @@
             "dataMode": "params",
             "version": 2,
             "auth": null,
-            "time": 1512993358514,
+            "time": 1516020854938,
             "name": "Status PeopleCount",
             "description": "",
             "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
             "responses": [],
-            "timestamp": null,
-            "rawModeData": null,
-            "descriptionFormat": null,
-            "variables": null,
-            "collection_id": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "folder": "3d551c1b-0b04-7d0e-f235-a5efae35f49c",
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "folder": "d64a1b85-98d3-8e26-0989-d665cbd30320",
             "currentHelper": null,
             "helperAttributes": null
         },
         {
-            "id": "2472faeb-3350-7c6f-c7a2-ed3f63898ae5",
+            "id": "28a382b2-5610-f3a0-68d9-4c27e589f1a0",
             "headers": "Authorization: Basic {{credentials}}\n",
             "headerData": [
                 {
                     "key": "Authorization",
                     "value": "Basic {{credentials}}",
-                    "enabled": true,
-                    "description": ""
+                    "description": "",
+                    "enabled": true
                 }
             ],
-            "url": "http://{{endpoint}}/getxml?location=/Status/Audio/Volume",
+            "url": "{{endpoint}}/getxml?location=/Status/Standby",
             "queryParams": [
                 {
                     "key": "location",
-                    "value": "/Status/Audio/Volume",
+                    "value": "/Status/Standby",
                     "equals": true,
                     "description": "",
                     "enabled": true
@@ -323,67 +480,24 @@
             "dataMode": "params",
             "version": 2,
             "auth": null,
-            "time": 1513009176929,
+            "time": 1516018926191,
             "name": "Status Standby",
             "description": "",
             "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
             "responses": [],
-            "timestamp": null,
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "folder": "af5ad2d2-832c-7557-134a-2392b1a8f77a",
             "isFromCollection": true,
-            "collectionRequestId": "2472faeb-3350-7c6f-c7a2-ed3f63898ae5",
-            "collection_id": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "folder": "5066324e-45ee-073b-6836-15fd538b00c8",
-            "folderId": "cd11c13d-3a06-9ef1-1d7f-b11cbe59ed5a",
             "currentHelper": null,
             "helperAttributes": null
         },
         {
-            "id": "332a67b3-3796-7ea4-751b-741fbb499d0a",
-            "headers": "Content-Type: application/xml\nAuthorization: Basic {{credentials}}\n",
+            "id": "3cf3429c-aa6b-8770-a807-c9141d65a8bb",
+            "headers": "Content-Type: text/xml\nAuthorization: Basic {{credentials}}\n",
             "headerData": [
                 {
                     "key": "Content-Type",
-                    "value": "application/xml",
-                    "enabled": true,
-                    "description": ""
-                },
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "enabled": true,
-                    "description": ""
-                }
-            ],
-            "url": "http://{{endpoint}}/putxml",
-            "queryParams": [],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "POST",
-            "data": [],
-            "dataMode": "raw",
-            "auth": null,
-            "time": 1512993523675,
-            "name": "Configuration PeopleCountOutOfCall (on)",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "timestamp": null,
-            "isFromCollection": true,
-            "collectionRequestId": "6e8f9b3f-df3d-7f20-de6b-ccbe041e0c33",
-            "collection_id": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "rawModeData": "<Configuration>\n    <RoomAnalytics>\n        <PeopleCountOutOfCall>On</PeopleCountOutOfCall>\n    </RoomAnalytics>\n</Configuration>",
-            "folder": "3d551c1b-0b04-7d0e-f235-a5efae35f49c",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "44ddbad2-255b-45b5-b859-25a8991ceb95",
-            "headers": "Content-Type: application/xml\nAuthorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Content-Type",
-                    "value": "application/xml",
+                    "value": "text/xml",
                     "description": "",
                     "enabled": true
                 },
@@ -394,8 +508,7 @@
                     "enabled": true
                 }
             ],
-            "url": "http://{{endpoint}}/putxml",
-            "folder": "9c6b4f9e-305f-d00b-219a-fae5cb56a459",
+            "url": "{{endpoint}}/putxml",
             "queryParams": [],
             "events": [],
             "pathVariables": [],
@@ -404,144 +517,30 @@
             "data": [],
             "dataMode": "raw",
             "auth": null,
-            "time": 1515423505247,
-            "name": "Command Call (SIP - Spark space)",
+            "time": 1516020438016,
+            "name": "Command Call Disconnect",
             "description": "",
             "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
             "responses": [],
-            "currentHelper": null,
-            "helperAttributes": null,
-            "rawModeData": "<Command>\r\n <Dial>\r\n \t<Number>88430972830@meet.ciscospark.com</Number>\r\n </Dial>\r\n</Command>"
-        },
-        {
-            "id": "4a2d9354-cbb2-847b-9c5a-39e4f29cd0b3",
-            "headers": "Authorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "enabled": true,
-                    "description": ""
-                }
-            ],
-            "url": "http://{{endpoint}}/status.xml",
-            "queryParams": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "GET",
-            "data": null,
-            "dataMode": "params",
-            "version": 2,
-            "time": 1512131461010,
-            "name": "Status",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "auth": null,
             "isFromCollection": true,
-            "timestamp": null,
-            "collectionRequestId": "4a2d9354-cbb2-847b-9c5a-39e4f29cd0b3",
-            "collection_id": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "folder": "cd11c13d-3a06-9ef1-1d7f-b11cbe59ed5a",
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "rawModeData": "<Command>\r\n\t<Call>\r\n\t\t<Disconnect>\r\n \t\t\t<CallId>{{_call}}</CallId>\r\n \t\t</Disconnect>\r\n\t</Call>\r\n</Command>",
+            "folder": "b0ad3336-d8ee-0ede-0849-67ac81c56d4f",
             "currentHelper": null,
             "helperAttributes": null
         },
         {
-            "id": "4ea28c37-96f1-6b3c-8bf4-5a8a3d88a23f",
+            "id": "42ce86af-f276-6632-a437-95a2271ffef5",
             "headers": "Authorization: Basic {{credentials}}\n",
             "headerData": [
                 {
                     "key": "Authorization",
                     "value": "Basic {{credentials}}",
-                    "enabled": true,
-                    "description": ""
-                }
-            ],
-            "url": "http://{{endpoint}}/getxml?location=/Configuration/RoomAnalytics/PeoplePresenceDetector",
-            "queryParams": [
-                {
-                    "key": "location",
-                    "value": "/Configuration/RoomAnalytics/PeoplePresenceDetector",
-                    "equals": true,
                     "description": "",
                     "enabled": true
                 }
             ],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "GET",
-            "data": null,
-            "dataMode": "params",
-            "version": 2,
-            "auth": null,
-            "time": 1512979656831,
-            "name": "Configuration PeoplePresenceDetector",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "isFromCollection": true,
-            "timestamp": null,
-            "collection_id": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "folder": "3d551c1b-0b04-7d0e-f235-a5efae35f49c",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "6344ace8-7072-443d-bf19-024ce4384daf",
-            "headers": "Authorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "enabled": true,
-                    "description": ""
-                }
-            ],
-            "url": "http://{{endpoint}}/getxml?location=/Status/Audio/Volume",
-            "queryParams": [
-                {
-                    "key": "location",
-                    "value": "/Status/Audio/Volume",
-                    "equals": true,
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "GET",
-            "data": null,
-            "dataMode": "params",
-            "version": 2,
-            "auth": null,
-            "time": 1513009176929,
-            "name": "Status Audio Volume",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "timestamp": null,
-            "isFromCollection": true,
-            "collectionRequestId": "6344ace8-7072-443d-bf19-024ce4384daf",
-            "collection_id": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "folder": "cd11c13d-3a06-9ef1-1d7f-b11cbe59ed5a",
-            "folderId": "cd11c13d-3a06-9ef1-1d7f-b11cbe59ed5a",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "67b4ef41-b9c3-cbc1-f16b-98267c0ee287",
-            "headers": "Authorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "enabled": true,
-                    "description": ""
-                }
-            ],
-            "url": "http://{{endpoint}}/getxml?location=/Status/RoomAnalytics/PeoplePresence",
+            "url": "{{endpoint}}/getxml?location=/Status/RoomAnalytics/PeoplePresence",
             "queryParams": [
                 {
                     "key": "location",
@@ -559,74 +558,34 @@
             "dataMode": "params",
             "version": 2,
             "auth": null,
-            "time": 1512979746266,
+            "time": 1516020871002,
             "name": "Status PeoplePresence",
             "description": "",
             "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
             "responses": [],
-            "isFromCollection": true,
-            "timestamp": null,
-            "collection_id": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "folder": "3d551c1b-0b04-7d0e-f235-a5efae35f49c",
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "folder": "d64a1b85-98d3-8e26-0989-d665cbd30320",
             "currentHelper": null,
             "helperAttributes": null
         },
         {
-            "id": "812f39a2-1e28-0a91-a659-b35d45cc2a0d",
-            "headers": "Content-Type: application/xml\nAuthorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Content-Type",
-                    "value": "application/xml",
-                    "enabled": true,
-                    "description": ""
-                },
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "enabled": true,
-                    "description": ""
-                }
-            ],
-            "url": "http://{{endpoint}}/putxml",
-            "folder": "df1da4fc-1e4c-9921-3f0f-60b427be6fbc",
-            "queryParams": [],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "POST",
-            "data": [],
-            "dataMode": "raw",
-            "auth": null,
-            "time": 1515416492363,
-            "name": "Configuration CustomMessage",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "timestamp": null,
-            "currentHelper": null,
-            "helperAttributes": null,
-            "rawModeData": "<Configuration>\r\n <UserInterface>\r\n \t<CustomMessage>I am a G33K</CustomMessage>\r\n </UserInterface>\r\n</Configuration>"
-        },
-        {
-            "id": "87d4c342-7bb8-dd22-e365-459538f995ee",
+            "id": "46cb51c3-1217-a610-1d7c-03f26969d103",
             "headers": "Authorization: Basic {{credentials}}\nContent-Type: text/xml\n",
             "headerData": [
                 {
                     "key": "Authorization",
                     "value": "Basic {{credentials}}",
-                    "enabled": true,
-                    "description": ""
+                    "description": "",
+                    "enabled": true
                 },
                 {
                     "key": "Content-Type",
                     "value": "text/xml",
-                    "enabled": true,
-                    "description": ""
+                    "description": "",
+                    "enabled": true
                 }
             ],
-            "url": "http://{{endpoint}}/putxml",
-            "folder": "df1da4fc-1e4c-9921-3f0f-60b427be6fbc",
+            "url": "{{endpoint}}/putxml",
             "queryParams": [],
             "events": [],
             "pathVariables": [],
@@ -636,38 +595,36 @@
             "dataMode": "raw",
             "version": 2,
             "auth": null,
-            "time": 1515416126830,
-            "name": "Command Standby Halfwake (utility)",
+            "time": 1516020620160,
+            "name": "Command Standby Halfwake",
             "description": "",
             "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
             "responses": [],
-            "timestamp": null,
             "isFromCollection": true,
-            "collectionRequestId": "87d4c342-7bb8-dd22-e365-459538f995ee",
-            "folderId": "df1da4fc-1e4c-9921-3f0f-60b427be6fbc",
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "rawModeData": "<Command>\r\n\t<Standby>\r\n \t\t<Halfwake/>\r\n\t</Standby>\r\n</Command>",
+            "folder": "af5ad2d2-832c-7557-134a-2392b1a8f77a",
             "currentHelper": null,
-            "helperAttributes": null,
-            "rawModeData": "<Command>\r\n <Standby>\r\n \t<Halfwake/>\r\n </Standby>\r\n</Command>"
+            "helperAttributes": null
         },
         {
-            "id": "89e5b771-4688-05a2-9160-df0c6264c146",
-            "headers": "Content-Type: application/xml\nAuthorization: Basic {{credentials}}\n",
+            "id": "52e95254-77ba-3bb3-1ae2-aa2d677544ab",
+            "headers": "Content-Type: text/xml\nAuthorization: Basic {{credentials}}\n",
             "headerData": [
                 {
                     "key": "Content-Type",
-                    "value": "application/xml",
-                    "enabled": true,
-                    "description": ""
+                    "value": "text/xml",
+                    "description": "",
+                    "enabled": true
                 },
                 {
                     "key": "Authorization",
                     "value": "Basic {{credentials}}",
-                    "enabled": true,
-                    "description": ""
+                    "description": "",
+                    "enabled": true
                 }
             ],
-            "url": "http://{{endpoint}}/putxml",
-            "folder": "df1da4fc-1e4c-9921-3f0f-60b427be6fbc",
+            "url": "{{endpoint}}/putxml",
             "queryParams": [],
             "events": [],
             "pathVariables": [],
@@ -676,75 +633,36 @@
             "data": [],
             "dataMode": "raw",
             "auth": null,
-            "time": 1515416502116,
+            "time": 1516020796072,
             "name": "Configuration HalfwakeMessage",
             "description": "",
             "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
             "responses": [],
-            "timestamp": null,
-            "currentHelper": null,
-            "helperAttributes": null,
-            "rawModeData": "<Configuration>\r\n <UserInterface>\r\n \t<OSD>\r\n \t\t<HalfwakeMessage>I am an API addict</HalfwakeMessage>\r\n \t</OSD>\r\n </UserInterface>\r\n</Configuration>"
-        },
-        {
-            "id": "91616d22-e7dd-e118-8eb1-2a6d98f77861",
-            "headers": "Authorization: Basic {{credentials}}\nContent-Type: text/xml\n",
-            "headerData": [
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "enabled": true,
-                    "description": ""
-                },
-                {
-                    "key": "Content-Type",
-                    "value": "text/xml",
-                    "enabled": true,
-                    "description": ""
-                }
-            ],
-            "url": "http://{{endpoint}}/putxml",
-            "folder": "5066324e-45ee-073b-6836-15fd538b00c8",
-            "queryParams": [],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "POST",
-            "data": [],
-            "dataMode": "raw",
-            "version": 2,
-            "auth": null,
-            "time": 1515416162996,
-            "name": "Command Standby Deactivate (turn on)",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
             "isFromCollection": true,
-            "collectionRequestId": "91616d22-e7dd-e118-8eb1-2a6d98f77861",
-            "timestamp": null,
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "rawModeData": "<Configuration>\r\n\t<UserInterface>\r\n\t\t<OSD>\r\n \t\t\t<HalfwakeMessage>I am an API addict</HalfwakeMessage>\r\n \t\t</OSD>\r\n\t</UserInterface>\r\n</Configuration>",
+            "folder": "a4952b24-7878-6417-4264-c54f3e2195fa",
             "currentHelper": null,
-            "helperAttributes": null,
-            "rawModeData": "<Command>\r\n <Standby>\r\n \t<Deactivate/>\r\n </Standby>\r\n</Command>"
+            "helperAttributes": null
         },
         {
-            "id": "9573d12f-5ff4-091c-32ab-04324deb539c",
+            "id": "59d62543-e6d4-5795-820f-c2fd362f2c92",
             "headers": "Authorization: Basic {{credentials}}\nContent-Type: text/xml\n",
             "headerData": [
                 {
                     "key": "Authorization",
                     "value": "Basic {{credentials}}",
-                    "enabled": true,
-                    "description": ""
+                    "description": "",
+                    "enabled": true
                 },
                 {
                     "key": "Content-Type",
                     "value": "text/xml",
-                    "enabled": true,
-                    "description": ""
+                    "description": "",
+                    "enabled": true
                 }
             ],
-            "url": "http://{{endpoint}}/putxml",
-            "folder": "5066324e-45ee-073b-6836-15fd538b00c8",
+            "url": "{{endpoint}}/putxml",
             "queryParams": [],
             "events": [],
             "pathVariables": [],
@@ -754,30 +672,30 @@
             "dataMode": "raw",
             "version": 2,
             "auth": null,
-            "time": 1515416097874,
+            "time": 1516020633583,
             "name": "Command Standby Activate (turn off)",
             "description": "",
             "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
             "responses": [],
-            "timestamp": null,
             "isFromCollection": true,
-            "collectionRequestId": "9573d12f-5ff4-091c-32ab-04324deb539c",
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "rawModeData": "<Command>\r\n\t<Standby>\r\n\t\t<Activate/>\r\n\t</Standby>\r\n</Command>",
+            "folder": "af5ad2d2-832c-7557-134a-2392b1a8f77a",
             "currentHelper": null,
-            "helperAttributes": null,
-            "rawModeData": "<Command>\r\n <Standby>\r\n \t<Activate/>\r\n </Standby>\r\n</Command>"
+            "helperAttributes": null
         },
         {
-            "id": "9c28e5f7-46a3-d180-2845-634c75ff0a53",
+            "id": "644ebf14-54f8-5f6a-344d-1ba359767b9c",
             "headers": "Authorization: Basic {{credentials}}\n",
             "headerData": [
                 {
                     "key": "Authorization",
                     "value": "Basic {{credentials}}",
-                    "enabled": true,
-                    "description": ""
+                    "description": "",
+                    "enabled": true
                 }
             ],
-            "url": "http://{{endpoint}}/getxml?location=/Configuration/RoomAnalytics/PeopleCount",
+            "url": "{{endpoint}}/getxml?location=/Configuration/RoomAnalytics/PeopleCount",
             "queryParams": [
                 {
                     "key": "location",
@@ -795,29 +713,20 @@
             "dataMode": "params",
             "version": 2,
             "auth": null,
-            "time": 1512993460887,
+            "time": 1516020859330,
             "name": "Configuration PeopleCountOutOfCall",
             "description": "",
             "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
             "responses": [],
-            "timestamp": null,
-            "isFromCollection": true,
-            "collectionRequestId": "703b091d-3ef9-16a7-42e3-261997e6d841",
-            "collection_id": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "folder": "3d551c1b-0b04-7d0e-f235-a5efae35f49c",
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "folder": "d64a1b85-98d3-8e26-0989-d665cbd30320",
             "currentHelper": null,
             "helperAttributes": null
         },
         {
-            "id": "a5e24a11-3dab-5cad-c458-ef6f8a826544",
-            "headers": "Content-Type: application/xml\nAuthorization: Basic {{credentials}}\n",
+            "id": "686fe608-b8eb-a0c0-9305-02a53fd0aeef",
+            "headers": "Authorization: Basic {{credentials}}\n",
             "headerData": [
-                {
-                    "key": "Content-Type",
-                    "value": "application/xml",
-                    "description": "",
-                    "enabled": true
-                },
                 {
                     "key": "Authorization",
                     "value": "Basic {{credentials}}",
@@ -825,83 +734,52 @@
                     "enabled": true
                 }
             ],
-            "url": "http://{{endpoint}}/putxml",
-            "folder": "9c6b4f9e-305f-d00b-219a-fae5cb56a459",
-            "queryParams": [],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "POST",
-            "data": [],
-            "dataMode": "raw",
-            "auth": null,
-            "time": 1515423199770,
-            "name": "Command Call (spark handle)",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "currentHelper": null,
-            "helperAttributes": null,
-            "rawModeData": "<Command>\r\n <Dial>\r\n \t<Number>devnet@cisco.com</Number>\r\n </Dial>\r\n</Command>"
-        },
-        {
-            "id": "a6a44e73-1eb1-59bd-bc74-99b6652976f7",
-            "headers": "Content-Type: application/xml\nAuthorization: Basic {{credentials}}\n",
-            "headerData": [
+            "url": "{{endpoint}}/getxml?location=/Configuration/RoomAnalytics/PeoplePresenceDetector",
+            "queryParams": [
                 {
-                    "key": "Content-Type",
-                    "value": "application/xml",
-                    "enabled": true,
-                    "description": ""
-                },
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "enabled": true,
-                    "description": ""
+                    "key": "location",
+                    "value": "/Configuration/RoomAnalytics/PeoplePresenceDetector",
+                    "equals": true,
+                    "description": "",
+                    "enabled": true
                 }
             ],
-            "url": "http://{{endpoint}}/putxml",
-            "queryParams": [],
             "events": [],
             "pathVariables": [],
             "pathVariableData": [],
-            "method": "POST",
-            "data": [],
-            "dataMode": "raw",
+            "method": "GET",
+            "data": null,
+            "dataMode": "params",
+            "version": 2,
             "auth": null,
-            "time": 1512993292108,
-            "name": "Configuration PeoplePresenceDetector On",
+            "time": 1516020875218,
+            "name": "Configuration PeoplePresenceDetector",
             "description": "",
             "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
             "responses": [],
-            "isFromCollection": true,
-            "timestamp": null,
-            "collection_id": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "rawModeData": "<Configuration>\n    <RoomAnalytics>\n        <PeoplePresenceDetector>On</PeoplePresenceDetector>\n    </RoomAnalytics>\n</Configuration>",
-            "folder": "3d551c1b-0b04-7d0e-f235-a5efae35f49c",
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "folder": "d64a1b85-98d3-8e26-0989-d665cbd30320",
             "currentHelper": null,
             "helperAttributes": null
         },
         {
-            "id": "a96cb6c7-8a62-4ea3-b7e8-139bb3f6a137",
+            "id": "787373f0-6ef4-7885-8cc6-e28718e64e42",
             "headers": "Authorization: Basic {{credentials}}\nContent-Type: text/xml\n",
             "headerData": [
                 {
                     "key": "Authorization",
                     "value": "Basic {{credentials}}",
-                    "enabled": true,
-                    "description": ""
+                    "description": "",
+                    "enabled": true
                 },
                 {
                     "key": "Content-Type",
                     "value": "text/xml",
-                    "enabled": true,
-                    "description": ""
+                    "description": "",
+                    "enabled": true
                 }
             ],
-            "url": "http://{{endpoint}}/putxml",
-            "folder": "5066324e-45ee-073b-6836-15fd538b00c8",
+            "url": "{{endpoint}}/putxml",
             "queryParams": [],
             "events": [],
             "pathVariables": [],
@@ -911,36 +789,36 @@
             "dataMode": "raw",
             "version": 2,
             "auth": null,
-            "time": 1515416126830,
-            "name": "Command Standby Halfwake",
+            "time": 1516020614068,
+            "name": "Command Standby Deactivate (turn on)",
             "description": "",
             "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
             "responses": [],
-            "timestamp": null,
             "isFromCollection": true,
-            "collectionRequestId": "a96cb6c7-8a62-4ea3-b7e8-139bb3f6a137",
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "rawModeData": "<Command>\r\n\t<Standby>\r\n\t\t<Deactivate/>\r\n\t</Standby>\r\n</Command>",
+            "folder": "af5ad2d2-832c-7557-134a-2392b1a8f77a",
             "currentHelper": null,
-            "helperAttributes": null,
-            "rawModeData": "<Command>\r\n <Standby>\r\n \t<Halfwake/>\r\n </Standby>\r\n</Command>"
+            "helperAttributes": null
         },
         {
-            "id": "db40e340-3fd7-b7e8-0aa6-9aa61d919727",
-            "headers": "Content-Type: application/xml\nAuthorization: Basic {{credentials}}\n",
+            "id": "95aafe81-c78e-9ae8-70b1-1ad4f982cec1",
+            "headers": "Content-Type: text/xml\nAuthorization: Basic {{credentials}}\n",
             "headerData": [
                 {
                     "key": "Content-Type",
-                    "value": "application/xml",
-                    "enabled": true,
-                    "description": ""
+                    "value": "text/xml",
+                    "description": "",
+                    "enabled": true
                 },
                 {
                     "key": "Authorization",
                     "value": "Basic {{credentials}}",
-                    "enabled": true,
-                    "description": ""
+                    "description": "",
+                    "enabled": true
                 }
             ],
-            "url": "http://{{endpoint}}/putxml",
+            "url": "{{endpoint}}/putxml",
             "queryParams": [],
             "events": [],
             "pathVariables": [],
@@ -949,17 +827,312 @@
             "data": [],
             "dataMode": "raw",
             "auth": null,
-            "time": 1514977564240,
+            "time": 1516020787143,
+            "name": "Configuration CustomMessage",
+            "description": "",
+            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
+            "responses": [],
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "rawModeData": "<Configuration>\r\n\t<UserInterface>\r\n\t\t<CustomMessage>I am a G33K</CustomMessage>\r\n\t</UserInterface>\r\n</Configuration>",
+            "folder": "a4952b24-7878-6417-4264-c54f3e2195fa",
+            "currentHelper": null,
+            "helperAttributes": null
+        },
+        {
+            "id": "b7bd0f37-17cf-87cb-9a78-254ee621a2b8",
+            "headers": "Content-Type: text/xml\nAuthorization: Basic {{credentials}}\n",
+            "headerData": [
+                {
+                    "key": "Content-Type",
+                    "value": "text/xml",
+                    "description": "",
+                    "enabled": true
+                },
+                {
+                    "key": "Authorization",
+                    "value": "Basic {{credentials}}",
+                    "description": "",
+                    "enabled": true
+                }
+            ],
+            "url": "{{endpoint}}/putxml",
+            "queryParams": [],
+            "events": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "id": "981c33e4-ed5a-490e-8dd6-2b9c0220fb80",
+                        "type": "text/javascript",
+                        "exec": [
+                            "if (responseCode.code != 200) {",
+                            "    tests[\"Start Spark call: failed\"] = false;",
+                            "}",
+                            "else {",
+                            "    tests[\"Start Spark call: success\"] = true;",
+                            "",
+                            "    var xmlData = xml2Json(responseBody);",
+                            "    console.log(xmlData);",
+                            "    if (!xmlData) {",
+                            "        tests[\"Start Spark call: parseing response as XML\"] = false;",
+                            "    }",
+                            "    else {",
+                            "        tests[\"Start Spark call: parseing response as XML\"] = true;",
+                            "        if ((!xmlData.Command) || (!xmlData.Command.DialResult) || (!xmlData.Command.DialResult.CallId)) {",
+                            "            tests[\"Start Spark call: checking XML payload\"] = false;",
+                            "        }",
+                            "        else {",
+                            "            tests[\"Start Spark call: checking XML payload\"] = true;",
+                            "",
+                            "            var callId = xmlData.Command.DialResult.CallId;",
+                            "            postman.setEnvironmentVariable(\"_call\", callId);",
+                            "            tests[\"Start Spark call: retreived Call with id:\" + callId] = true",
+                            "        }",
+                            "    }",
+                            "}",
+                            "    ",
+                            "    "
+                        ]
+                    }
+                }
+            ],
+            "pathVariables": [],
+            "pathVariableData": [],
+            "method": "POST",
+            "data": [],
+            "dataMode": "raw",
+            "auth": null,
+            "time": 1516020420705,
+            "name": "Command Call (Spark Email)",
+            "description": "",
+            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
+            "responses": [],
+            "isFromCollection": true,
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "rawModeData": "<Command>\r\n\t<Dial>\r\n \t\t<Number>devnet@cisco.com</Number>\r\n\t</Dial>\r\n</Command>",
+            "folder": "b0ad3336-d8ee-0ede-0849-67ac81c56d4f",
+            "preRequestScript": null,
+            "tests": "if (responseCode.code != 200) {\n    tests[\"Start Spark call: failed\"] = false;\n}\nelse {\n    tests[\"Start Spark call: success\"] = true;\n\n    var xmlData = xml2Json(responseBody);\n    console.log(xmlData);\n    if (!xmlData) {\n        tests[\"Start Spark call: parseing response as XML\"] = false;\n    }\n    else {\n        tests[\"Start Spark call: parseing response as XML\"] = true;\n        if ((!xmlData.Command) || (!xmlData.Command.DialResult) || (!xmlData.Command.DialResult.CallId)) {\n            tests[\"Start Spark call: checking XML payload\"] = false;\n        }\n        else {\n            tests[\"Start Spark call: checking XML payload\"] = true;\n\n            var callId = xmlData.Command.DialResult.CallId;\n            postman.setEnvironmentVariable(\"_call\", callId);\n            tests[\"Start Spark call: retreived Call with id:\" + callId] = true\n        }\n    }\n}\n    \n    ",
+            "currentHelper": null,
+            "helperAttributes": null
+        },
+        {
+            "id": "bb8c0cdc-b596-a17d-47f5-f8d78bbdd778",
+            "headers": "Authorization: Basic {{credentials}}\n",
+            "headerData": [
+                {
+                    "key": "Authorization",
+                    "value": "Basic {{credentials}}",
+                    "description": "",
+                    "enabled": true
+                }
+            ],
+            "url": "{{endpoint}}/status.xml",
+            "queryParams": [],
+            "events": [],
+            "pathVariables": [],
+            "pathVariableData": [],
+            "method": "GET",
+            "data": null,
+            "dataMode": "params",
+            "version": 2,
+            "auth": null,
+            "time": 1516018938022,
+            "name": "Status",
+            "description": "",
+            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
+            "responses": [],
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "folder": "542b3361-754c-4bb8-21cf-74ca7e78921c",
+            "currentHelper": null,
+            "helperAttributes": null
+        },
+        {
+            "id": "c52f3cda-192a-1a21-4e77-db441ec8862b",
+            "headers": "Authorization: Basic {{credentials}}\nContent-Type: text/xml\n",
+            "headerData": [
+                {
+                    "key": "Authorization",
+                    "value": "Basic {{credentials}}",
+                    "description": "",
+                    "enabled": true
+                },
+                {
+                    "key": "Content-Type",
+                    "value": "text/xml",
+                    "description": "",
+                    "enabled": true
+                }
+            ],
+            "url": "{{endpoint}}/putxml",
+            "queryParams": [],
+            "events": [],
+            "pathVariables": [],
+            "pathVariableData": [],
+            "method": "POST",
+            "data": [],
+            "dataMode": "raw",
+            "version": 2,
+            "auth": null,
+            "time": 1516020807240,
+            "name": "Command Standby Halfwake (utility)",
+            "description": "",
+            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
+            "responses": [],
+            "isFromCollection": true,
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "rawModeData": "<Command>\r\n\t<Standby>\r\n\t\t<Halfwake/>\r\n\t</Standby>\r\n</Command>",
+            "folder": "a4952b24-7878-6417-4264-c54f3e2195fa",
+            "currentHelper": null,
+            "helperAttributes": null
+        },
+        {
+            "id": "d0798869-92ad-8dc4-d15e-83f8a1382d1c",
+            "headers": "Content-Type: text/xml\nAuthorization: Basic {{credentials}}\n",
+            "headerData": [
+                {
+                    "key": "Content-Type",
+                    "value": "text/xml",
+                    "description": "",
+                    "enabled": true
+                },
+                {
+                    "key": "Authorization",
+                    "value": "Basic {{credentials}}",
+                    "description": "",
+                    "enabled": true
+                }
+            ],
+            "url": "{{endpoint}}/putxml",
+            "queryParams": [],
+            "events": [],
+            "pathVariables": [],
+            "pathVariableData": [],
+            "method": "POST",
+            "data": [],
+            "dataMode": "raw",
+            "auth": null,
+            "time": 1516020774327,
             "name": "Command Brand Logo (awake)",
             "description": "",
             "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
             "responses": [],
-            "collection_id": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "rawModeData": "<Command>\r\n <UserInterface>\r\n \t<Branding>\r\n \t\t<Upload>\r\n \t\t\t<Type>Branding</Type>\r\n \t\t\t<body>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</body>\r\n \t\t</Upload>\r\n \t</Branding>\r\n </UserInterface>\r\n</Command>",
-            "folder": "df1da4fc-1e4c-9921-3f0f-60b427be6fbc",
-            "timestamp": null,
             "isFromCollection": true,
-            "collectionRequestId": "db40e340-3fd7-b7e8-0aa6-9aa61d919727",
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "rawModeData": "<Command>\r\n <UserInterface>\r\n \t<Branding>\r\n \t\t<Upload>\r\n \t\t\t<Type>Branding</Type>\r\n \t\t\t<body>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</body>\r\n \t\t</Upload>\r\n \t</Branding>\r\n </UserInterface>\r\n</Command>",
+            "folder": "a4952b24-7878-6417-4264-c54f3e2195fa",
+            "currentHelper": null,
+            "helperAttributes": null
+        },
+        {
+            "id": "e9f2fc26-e43b-e5e8-117e-7316e5678431",
+            "headers": "Authorization: Basic {{credentials}}\n",
+            "headerData": [
+                {
+                    "key": "Authorization",
+                    "value": "Basic {{credentials}}",
+                    "description": "",
+                    "enabled": true
+                }
+            ],
+            "url": "{{endpoint}}/getxml?location=/Status/Audio/Volume",
+            "queryParams": [
+                {
+                    "key": "location",
+                    "value": "/Status/Audio/Volume",
+                    "equals": true,
+                    "description": "",
+                    "enabled": true
+                }
+            ],
+            "events": [],
+            "pathVariables": [],
+            "pathVariableData": [],
+            "method": "GET",
+            "data": null,
+            "dataMode": "params",
+            "version": 2,
+            "auth": null,
+            "time": 1516018906231,
+            "name": "Status Audio Volume",
+            "description": "",
+            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
+            "responses": [],
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "folder": "542b3361-754c-4bb8-21cf-74ca7e78921c",
+            "currentHelper": null,
+            "helperAttributes": null
+        },
+        {
+            "id": "f178e154-56d5-1093-a35a-7fcfed62854f",
+            "headers": "Content-Type: text/xml\nAuthorization: Basic {{credentials}}\n",
+            "headerData": [
+                {
+                    "key": "Content-Type",
+                    "value": "text/xml",
+                    "description": "",
+                    "enabled": true
+                },
+                {
+                    "key": "Authorization",
+                    "value": "Basic {{credentials}}",
+                    "description": "",
+                    "enabled": true
+                }
+            ],
+            "url": "{{endpoint}}/putxml",
+            "queryParams": [],
+            "events": [],
+            "pathVariables": [],
+            "pathVariableData": [],
+            "method": "POST",
+            "data": [],
+            "dataMode": "raw",
+            "auth": null,
+            "time": 1516020879658,
+            "name": "Configuration PeoplePresenceDetector On",
+            "description": "",
+            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
+            "responses": [],
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "rawModeData": "<Configuration>\n    <RoomAnalytics>\n        <PeoplePresenceDetector>On</PeoplePresenceDetector>\n    </RoomAnalytics>\n</Configuration>",
+            "folder": "d64a1b85-98d3-8e26-0989-d665cbd30320",
+            "currentHelper": null,
+            "helperAttributes": null
+        },
+        {
+            "id": "f506e81c-78d0-4a7a-f63b-ac95ae0b2e93",
+            "headers": "Content-Type: text/xml\nAuthorization: Basic {{credentials}}\n",
+            "headerData": [
+                {
+                    "key": "Content-Type",
+                    "value": "text/xml",
+                    "description": "",
+                    "enabled": true
+                },
+                {
+                    "key": "Authorization",
+                    "value": "Basic {{credentials}}",
+                    "description": "",
+                    "enabled": true
+                }
+            ],
+            "url": "{{endpoint}}/putxml",
+            "queryParams": [],
+            "events": [],
+            "pathVariables": [],
+            "pathVariableData": [],
+            "method": "POST",
+            "data": [],
+            "dataMode": "raw",
+            "auth": null,
+            "time": 1516020864330,
+            "name": "Configuration PeopleCountOutOfCall (on)",
+            "description": "",
+            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
+            "responses": [],
+            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
+            "rawModeData": "<Configuration>\n    <RoomAnalytics>\n        <PeopleCountOutOfCall>On</PeopleCountOutOfCall>\n    </RoomAnalytics>\n</Configuration>",
+            "folder": "d64a1b85-98d3-8e26-0989-d665cbd30320",
             "currentHelper": null,
             "helperAttributes": null
         }

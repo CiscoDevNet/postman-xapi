@@ -1,1140 +1,1190 @@
 {
-    "id": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-    "name": "xAPI (as Integrator)",
-    "description": "https://github.com/CiscoDevNet/postman-xapi",
-    "order": [],
-    "folders": [
-        {
-            "name": "calls",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "order": [
-                "192cfea8-7016-7d75-a223-bd3e3ad1acbe",
-                "3cf3429c-aa6b-8770-a807-c9141d65a8bb",
-                "1397c308-7c9a-3dc0-0e6a-384f0eccdd86",
-                "b7bd0f37-17cf-87cb-9a78-254ee621a2b8"
-            ],
-            "owner": "30210",
-            "folders_order": [],
-            "auth": null,
-            "events": [
-                {
-                    "listen": "prerequest",
-                    "script": {
-                        "id": "10b895eb-d250-4fe0-a7ea-4d9b84705476",
-                        "type": "text/javascript",
-                        "exec": [
-                            ""
-                        ]
-                    }
-                },
-                {
-                    "listen": "test",
-                    "script": {
-                        "id": "ff93dcf1-3c46-4a94-88b2-110f5489e347",
-                        "type": "text/javascript",
-                        "exec": [
-                            ""
-                        ]
-                    }
-                }
-            ],
-            "id": "b0ad3336-d8ee-0ede-0849-67ac81c56d4f"
-        },
-        {
-            "name": "config & status",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "order": [
-                "bb8c0cdc-b596-a17d-47f5-f8d78bbdd778",
-                "e9f2fc26-e43b-e5e8-117e-7316e5678431",
-                "242bbc9a-c852-accb-ab6f-70bb00f26b53"
-            ],
-            "owner": "30210",
-            "folders_order": [],
-            "auth": null,
-            "events": [
-                {
-                    "listen": "prerequest",
-                    "script": {
-                        "id": "955f52fe-984b-4f9b-a868-a6ea1c72c0ea",
-                        "type": "text/javascript",
-                        "exec": [
-                            ""
-                        ]
-                    }
-                },
-                {
-                    "listen": "test",
-                    "script": {
-                        "id": "c6135645-3f84-4021-89d0-26dc29ab445c",
-                        "type": "text/javascript",
-                        "exec": [
-                            ""
-                        ]
-                    }
-                }
-            ],
-            "id": "542b3361-754c-4bb8-21cf-74ca7e78921c"
-        },
-        {
-            "name": "personalization",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "order": [
-                "95aafe81-c78e-9ae8-70b1-1ad4f982cec1",
-                "52e95254-77ba-3bb3-1ae2-aa2d677544ab",
-                "c52f3cda-192a-1a21-4e77-db441ec8862b",
-                "d0798869-92ad-8dc4-d15e-83f8a1382d1c"
-            ],
-            "owner": "30210",
-            "folders_order": [],
-            "auth": null,
-            "events": [
-                {
-                    "listen": "prerequest",
-                    "script": {
-                        "id": "466a6a96-908b-4a7f-959f-a8931230b572",
-                        "type": "text/javascript",
-                        "exec": [
-                            ""
-                        ]
-                    }
-                },
-                {
-                    "listen": "test",
-                    "script": {
-                        "id": "a0de0505-6f81-44e0-bf97-f6785aa04fb5",
-                        "type": "text/javascript",
-                        "exec": [
-                            ""
-                        ]
-                    }
-                }
-            ],
-            "id": "a4952b24-7878-6417-4264-c54f3e2195fa"
-        },
-        {
-            "name": "room analytics",
-            "description": "Available only on room devices",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "order": [
-                "27043386-5a84-26ca-1056-cc6d7e1375fc",
-                "644ebf14-54f8-5f6a-344d-1ba359767b9c",
-                "f506e81c-78d0-4a7a-f63b-ac95ae0b2e93",
-                "42ce86af-f276-6632-a437-95a2271ffef5",
-                "686fe608-b8eb-a0c0-9305-02a53fd0aeef",
-                "f178e154-56d5-1093-a35a-7fcfed62854f"
-            ],
-            "owner": "30210",
-            "folders_order": [],
-            "auth": null,
-            "events": [
-                {
-                    "listen": "prerequest",
-                    "script": {
-                        "id": "66a3c99f-9313-4efc-a7ac-e5846929089f",
-                        "type": "text/javascript",
-                        "exec": [
-                            ""
-                        ]
-                    }
-                },
-                {
-                    "listen": "test",
-                    "script": {
-                        "id": "6ef83a3c-225b-45e2-b158-d67144d5aa1b",
-                        "type": "text/javascript",
-                        "exec": [
-                            ""
-                        ]
-                    }
-                }
-            ],
-            "id": "d64a1b85-98d3-8e26-0989-d665cbd30320"
-        },
-        {
-            "name": "standby",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "order": [
-                "28a382b2-5610-f3a0-68d9-4c27e589f1a0",
-                "59d62543-e6d4-5795-820f-c2fd362f2c92",
-                "46cb51c3-1217-a610-1d7c-03f26969d103",
-                "787373f0-6ef4-7885-8cc6-e28718e64e42"
-            ],
-            "owner": "30210",
-            "folders_order": [],
-            "auth": null,
-            "events": [
-                {
-                    "listen": "prerequest",
-                    "script": {
-                        "id": "ea37581c-f9bc-4b3f-b9c8-e53f837e7e93",
-                        "type": "text/javascript",
-                        "exec": [
-                            ""
-                        ]
-                    }
-                },
-                {
-                    "listen": "test",
-                    "script": {
-                        "id": "83b99beb-3990-4d5f-84f4-a0b6babdc2ce",
-                        "type": "text/javascript",
-                        "exec": [
-                            ""
-                        ]
-                    }
-                }
-            ],
-            "id": "af5ad2d2-832c-7557-134a-2392b1a8f77a"
-        }
-    ],
-    "folders_order": [
-        "542b3361-754c-4bb8-21cf-74ca7e78921c",
-        "af5ad2d2-832c-7557-134a-2392b1a8f77a",
-        "b0ad3336-d8ee-0ede-0849-67ac81c56d4f",
-        "a4952b24-7878-6417-4264-c54f3e2195fa",
-        "d64a1b85-98d3-8e26-0989-d665cbd30320"
-    ],
-    "timestamp": 1515183754605,
-    "owner": "30210",
-    "public": false,
-    "events": [
-        {
-            "listen": "prerequest",
-            "script": {
-                "id": "a15c773a-87ee-4e82-bf9b-fcac878fd6d3",
-                "type": "text/javascript",
-                "exec": [
-                    ""
-                ]
-            }
-        },
-        {
-            "listen": "test",
-            "script": {
-                "id": "455dc0c0-8b20-4b60-9868-2aff97e631b4",
-                "type": "text/javascript",
-                "exec": [
-                    ""
-                ]
-            }
-        }
-    ],
-    "variables": [],
-    "auth": null,
-    "requests": [
-        {
-            "id": "1397c308-7c9a-3dc0-0e6a-384f0eccdd86",
-            "headers": "Content-Type: text/xml\nAuthorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Content-Type",
-                    "value": "text/xml",
-                    "description": "",
-                    "enabled": true
-                },
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/putxml",
-            "queryParams": [],
-            "events": [
-                {
-                    "listen": "test",
-                    "script": {
-                        "id": "33195335-6a1a-4aed-ab5b-40626ed72ae2",
-                        "type": "text/javascript",
-                        "exec": [
-                            "if (responseCode.code != 200) {",
-                            "    tests[\"Start SIP call to Space: failed\"] = false;",
-                            "}",
-                            "else {",
-                            "    tests[\"Start SIP call to Space: success\"] = true;",
-                            "",
-                            "    var xmlData = xml2Json(responseBody);",
-                            "    console.log(xmlData);",
-                            "    if (!xmlData) {",
-                            "        tests[\"Start SIP call to Space: parseing response as XML\"] = false;",
-                            "    }",
-                            "    else {",
-                            "        tests[\"Start SIP call to Space: parseing response as XML\"] = true;",
-                            "        if ((!xmlData.Command) || (!xmlData.Command.DialResult) || (!xmlData.Command.DialResult.CallId)) {",
-                            "            tests[\"Start SIP call to Space: checking XML payload\"] = false;",
-                            "        }",
-                            "        else {",
-                            "            tests[\"Start SIP call to Space: checking XML payload\"] = true;",
-                            "",
-                            "            var callId = xmlData.Command.DialResult.CallId;",
-                            "            postman.setEnvironmentVariable(\"_call\", callId);",
-                            "            tests[\"Start SIP call to Space: retreived Call with id:\" + callId] = true",
-                            "        }",
-                            "    }",
-                            "}",
-                            "    ",
-                            "    "
-                        ]
-                    }
-                }
-            ],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "POST",
-            "data": [],
-            "dataMode": "raw",
-            "auth": null,
-            "time": 1516020429009,
-            "name": "Command Call (SIP - Spark space)",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "isFromCollection": true,
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "rawModeData": "<Command>\r\n\t<Dial>\r\n\t\t<Number>88430972830@meet.ciscospark.com</Number>\r\n\t</Dial>\r\n</Command>",
-            "folder": "b0ad3336-d8ee-0ede-0849-67ac81c56d4f",
-            "preRequestScript": null,
-            "tests": "if (responseCode.code != 200) {\n    tests[\"Start SIP call to Space: failed\"] = false;\n}\nelse {\n    tests[\"Start SIP call to Space: success\"] = true;\n\n    var xmlData = xml2Json(responseBody);\n    console.log(xmlData);\n    if (!xmlData) {\n        tests[\"Start SIP call to Space: parseing response as XML\"] = false;\n    }\n    else {\n        tests[\"Start SIP call to Space: parseing response as XML\"] = true;\n        if ((!xmlData.Command) || (!xmlData.Command.DialResult) || (!xmlData.Command.DialResult.CallId)) {\n            tests[\"Start SIP call to Space: checking XML payload\"] = false;\n        }\n        else {\n            tests[\"Start SIP call to Space: checking XML payload\"] = true;\n\n            var callId = xmlData.Command.DialResult.CallId;\n            postman.setEnvironmentVariable(\"_call\", callId);\n            tests[\"Start SIP call to Space: retreived Call with id:\" + callId] = true\n        }\n    }\n}\n    \n    ",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "192cfea8-7016-7d75-a223-bd3e3ad1acbe",
-            "headers": "Content-Type: text/xml\nAuthorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Content-Type",
-                    "value": "text/xml",
-                    "description": "",
-                    "enabled": true
-                },
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/putxml",
-            "queryParams": [],
-            "events": [
-                {
-                    "listen": "test",
-                    "script": {
-                        "id": "00810ab5-640c-4367-98a6-db48ef9abcba",
-                        "type": "text/javascript",
-                        "exec": [
-                            "if (responseCode.code != 200) {",
-                            "    tests[\"Start SIP call: failed\"] = false;",
-                            "}",
-                            "else {",
-                            "    tests[\"Start SIP call: success\"] = true;",
-                            "",
-                            "    var xmlData = xml2Json(responseBody);",
-                            "    console.log(xmlData);",
-                            "    if (!xmlData) {",
-                            "        tests[\"Start SIP call: parseing response as XML\"] = false;",
-                            "    }",
-                            "    else {",
-                            "        tests[\"Start SIP call: parseing response as XML\"] = true;",
-                            "        if ((!xmlData.Command) || (!xmlData.Command.DialResult) || (!xmlData.Command.DialResult.CallId)) {",
-                            "            tests[\"Start SIP call: checking XML payload\"] = false;",
-                            "        }",
-                            "        else {",
-                            "            tests[\"Start SIP call: checking XML payload\"] = true;",
-                            "",
-                            "            var callId = xmlData.Command.DialResult.CallId;",
-                            "            postman.setEnvironmentVariable(\"_call\", callId);",
-                            "            tests[\"Start SIP call: retreived Call with id:\" + callId] = true",
-                            "        }",
-                            "    }",
-                            "}",
-                            "    ",
-                            "    "
-                        ]
-                    }
-                }
-            ],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "POST",
-            "data": [],
-            "dataMode": "raw",
-            "auth": null,
-            "time": 1516020597223,
-            "name": "Command Call (SIP)",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "isFromCollection": true,
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "rawModeData": "<Command>\r\n\t<Dial>\r\n\t\t<Number>roomkit@sparkdemos.com</Number>\r\n\t</Dial>\r\n</Command>",
-            "folder": "b0ad3336-d8ee-0ede-0849-67ac81c56d4f",
-            "preRequestScript": null,
-            "tests": "if (responseCode.code != 200) {\n    tests[\"Start SIP call: failed\"] = false;\n}\nelse {\n    tests[\"Start SIP call: success\"] = true;\n\n    var xmlData = xml2Json(responseBody);\n    console.log(xmlData);\n    if (!xmlData) {\n        tests[\"Start SIP call: parseing response as XML\"] = false;\n    }\n    else {\n        tests[\"Start SIP call: parseing response as XML\"] = true;\n        if ((!xmlData.Command) || (!xmlData.Command.DialResult) || (!xmlData.Command.DialResult.CallId)) {\n            tests[\"Start SIP call: checking XML payload\"] = false;\n        }\n        else {\n            tests[\"Start SIP call: checking XML payload\"] = true;\n\n            var callId = xmlData.Command.DialResult.CallId;\n            postman.setEnvironmentVariable(\"_call\", callId);\n            tests[\"Start SIP call: retreived Call with id:\" + callId] = true\n        }\n    }\n}\n    \n    ",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "242bbc9a-c852-accb-ab6f-70bb00f26b53",
-            "headers": "Authorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/configuration.xml",
-            "queryParams": [],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "GET",
-            "data": null,
-            "dataMode": "params",
-            "version": 2,
-            "auth": null,
-            "time": 1516018915095,
-            "name": "Configuration",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "isFromCollection": true,
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "folder": "542b3361-754c-4bb8-21cf-74ca7e78921c",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "27043386-5a84-26ca-1056-cc6d7e1375fc",
-            "headers": "Authorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/getxml?location=/Status/RoomAnalytics/PeopleCount",
-            "queryParams": [
-                {
-                    "key": "location",
-                    "value": "/Status/RoomAnalytics/PeopleCount",
-                    "equals": true,
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "events": null,
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "GET",
-            "data": null,
-            "dataMode": "params",
-            "version": 2,
-            "auth": null,
-            "time": 1516020854938,
-            "name": "Status PeopleCount",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "folder": "d64a1b85-98d3-8e26-0989-d665cbd30320",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "28a382b2-5610-f3a0-68d9-4c27e589f1a0",
-            "headers": "Authorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/getxml?location=/Status/Standby",
-            "queryParams": [
-                {
-                    "key": "location",
-                    "value": "/Status/Standby",
-                    "equals": true,
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "GET",
-            "data": null,
-            "dataMode": "params",
-            "version": 2,
-            "auth": null,
-            "time": 1516018926191,
-            "name": "Status Standby",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "folder": "af5ad2d2-832c-7557-134a-2392b1a8f77a",
-            "isFromCollection": true,
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "3cf3429c-aa6b-8770-a807-c9141d65a8bb",
-            "headers": "Content-Type: text/xml\nAuthorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Content-Type",
-                    "value": "text/xml",
-                    "description": "",
-                    "enabled": true
-                },
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/putxml",
-            "queryParams": [],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "POST",
-            "data": [],
-            "dataMode": "raw",
-            "auth": null,
-            "time": 1516020438016,
-            "name": "Command Call Disconnect",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "isFromCollection": true,
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "rawModeData": "<Command>\r\n\t<Call>\r\n\t\t<Disconnect>\r\n \t\t\t<CallId>{{_call}}</CallId>\r\n \t\t</Disconnect>\r\n\t</Call>\r\n</Command>",
-            "folder": "b0ad3336-d8ee-0ede-0849-67ac81c56d4f",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "42ce86af-f276-6632-a437-95a2271ffef5",
-            "headers": "Authorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/getxml?location=/Status/RoomAnalytics/PeoplePresence",
-            "queryParams": [
-                {
-                    "key": "location",
-                    "value": "/Status/RoomAnalytics/PeoplePresence",
-                    "equals": true,
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "GET",
-            "data": null,
-            "dataMode": "params",
-            "version": 2,
-            "auth": null,
-            "time": 1516020871002,
-            "name": "Status PeoplePresence",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "folder": "d64a1b85-98d3-8e26-0989-d665cbd30320",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "46cb51c3-1217-a610-1d7c-03f26969d103",
-            "headers": "Authorization: Basic {{credentials}}\nContent-Type: text/xml\n",
-            "headerData": [
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                },
-                {
-                    "key": "Content-Type",
-                    "value": "text/xml",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/putxml",
-            "queryParams": [],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "POST",
-            "data": [],
-            "dataMode": "raw",
-            "version": 2,
-            "auth": null,
-            "time": 1516020620160,
-            "name": "Command Standby Halfwake",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "isFromCollection": true,
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "rawModeData": "<Command>\r\n\t<Standby>\r\n \t\t<Halfwake/>\r\n\t</Standby>\r\n</Command>",
-            "folder": "af5ad2d2-832c-7557-134a-2392b1a8f77a",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "52e95254-77ba-3bb3-1ae2-aa2d677544ab",
-            "headers": "Content-Type: text/xml\nAuthorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Content-Type",
-                    "value": "text/xml",
-                    "description": "",
-                    "enabled": true
-                },
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/putxml",
-            "queryParams": [],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "POST",
-            "data": [],
-            "dataMode": "raw",
-            "auth": null,
-            "time": 1516020796072,
-            "name": "Configuration HalfwakeMessage",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "isFromCollection": true,
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "rawModeData": "<Configuration>\r\n\t<UserInterface>\r\n\t\t<OSD>\r\n \t\t\t<HalfwakeMessage>I am an API addict</HalfwakeMessage>\r\n \t\t</OSD>\r\n\t</UserInterface>\r\n</Configuration>",
-            "folder": "a4952b24-7878-6417-4264-c54f3e2195fa",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "59d62543-e6d4-5795-820f-c2fd362f2c92",
-            "headers": "Authorization: Basic {{credentials}}\nContent-Type: text/xml\n",
-            "headerData": [
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                },
-                {
-                    "key": "Content-Type",
-                    "value": "text/xml",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/putxml",
-            "queryParams": [],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "POST",
-            "data": [],
-            "dataMode": "raw",
-            "version": 2,
-            "auth": null,
-            "time": 1516020633583,
-            "name": "Command Standby Activate (turn off)",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "isFromCollection": true,
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "rawModeData": "<Command>\r\n\t<Standby>\r\n\t\t<Activate/>\r\n\t</Standby>\r\n</Command>",
-            "folder": "af5ad2d2-832c-7557-134a-2392b1a8f77a",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "644ebf14-54f8-5f6a-344d-1ba359767b9c",
-            "headers": "Authorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/getxml?location=/Configuration/RoomAnalytics/PeopleCount",
-            "queryParams": [
-                {
-                    "key": "location",
-                    "value": "/Configuration/RoomAnalytics/PeopleCount",
-                    "equals": true,
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "GET",
-            "data": null,
-            "dataMode": "params",
-            "version": 2,
-            "auth": null,
-            "time": 1516020859330,
-            "name": "Configuration PeopleCountOutOfCall",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "folder": "d64a1b85-98d3-8e26-0989-d665cbd30320",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "686fe608-b8eb-a0c0-9305-02a53fd0aeef",
-            "headers": "Authorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/getxml?location=/Configuration/RoomAnalytics/PeoplePresenceDetector",
-            "queryParams": [
-                {
-                    "key": "location",
-                    "value": "/Configuration/RoomAnalytics/PeoplePresenceDetector",
-                    "equals": true,
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "GET",
-            "data": null,
-            "dataMode": "params",
-            "version": 2,
-            "auth": null,
-            "time": 1516020875218,
-            "name": "Configuration PeoplePresenceDetector",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "folder": "d64a1b85-98d3-8e26-0989-d665cbd30320",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "787373f0-6ef4-7885-8cc6-e28718e64e42",
-            "headers": "Authorization: Basic {{credentials}}\nContent-Type: text/xml\n",
-            "headerData": [
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                },
-                {
-                    "key": "Content-Type",
-                    "value": "text/xml",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/putxml",
-            "queryParams": [],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "POST",
-            "data": [],
-            "dataMode": "raw",
-            "version": 2,
-            "auth": null,
-            "time": 1516020614068,
-            "name": "Command Standby Deactivate (turn on)",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "isFromCollection": true,
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "rawModeData": "<Command>\r\n\t<Standby>\r\n\t\t<Deactivate/>\r\n\t</Standby>\r\n</Command>",
-            "folder": "af5ad2d2-832c-7557-134a-2392b1a8f77a",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "95aafe81-c78e-9ae8-70b1-1ad4f982cec1",
-            "headers": "Content-Type: text/xml\nAuthorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Content-Type",
-                    "value": "text/xml",
-                    "description": "",
-                    "enabled": true
-                },
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/putxml",
-            "queryParams": [],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "POST",
-            "data": [],
-            "dataMode": "raw",
-            "auth": null,
-            "time": 1516020787143,
-            "name": "Configuration CustomMessage",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "rawModeData": "<Configuration>\r\n\t<UserInterface>\r\n\t\t<CustomMessage>I am a G33K</CustomMessage>\r\n\t</UserInterface>\r\n</Configuration>",
-            "folder": "a4952b24-7878-6417-4264-c54f3e2195fa",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "b7bd0f37-17cf-87cb-9a78-254ee621a2b8",
-            "headers": "Content-Type: text/xml\nAuthorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Content-Type",
-                    "value": "text/xml",
-                    "description": "",
-                    "enabled": true
-                },
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/putxml",
-            "queryParams": [],
-            "events": [
-                {
-                    "listen": "test",
-                    "script": {
-                        "id": "981c33e4-ed5a-490e-8dd6-2b9c0220fb80",
-                        "type": "text/javascript",
-                        "exec": [
-                            "if (responseCode.code != 200) {",
-                            "    tests[\"Start Spark call: failed\"] = false;",
-                            "}",
-                            "else {",
-                            "    tests[\"Start Spark call: success\"] = true;",
-                            "",
-                            "    var xmlData = xml2Json(responseBody);",
-                            "    console.log(xmlData);",
-                            "    if (!xmlData) {",
-                            "        tests[\"Start Spark call: parseing response as XML\"] = false;",
-                            "    }",
-                            "    else {",
-                            "        tests[\"Start Spark call: parseing response as XML\"] = true;",
-                            "        if ((!xmlData.Command) || (!xmlData.Command.DialResult) || (!xmlData.Command.DialResult.CallId)) {",
-                            "            tests[\"Start Spark call: checking XML payload\"] = false;",
-                            "        }",
-                            "        else {",
-                            "            tests[\"Start Spark call: checking XML payload\"] = true;",
-                            "",
-                            "            var callId = xmlData.Command.DialResult.CallId;",
-                            "            postman.setEnvironmentVariable(\"_call\", callId);",
-                            "            tests[\"Start Spark call: retreived Call with id:\" + callId] = true",
-                            "        }",
-                            "    }",
-                            "}",
-                            "    ",
-                            "    "
-                        ]
-                    }
-                }
-            ],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "POST",
-            "data": [],
-            "dataMode": "raw",
-            "auth": null,
-            "time": 1516020420705,
-            "name": "Command Call (Spark Email)",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "isFromCollection": true,
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "rawModeData": "<Command>\r\n\t<Dial>\r\n \t\t<Number>devnet@cisco.com</Number>\r\n\t</Dial>\r\n</Command>",
-            "folder": "b0ad3336-d8ee-0ede-0849-67ac81c56d4f",
-            "preRequestScript": null,
-            "tests": "if (responseCode.code != 200) {\n    tests[\"Start Spark call: failed\"] = false;\n}\nelse {\n    tests[\"Start Spark call: success\"] = true;\n\n    var xmlData = xml2Json(responseBody);\n    console.log(xmlData);\n    if (!xmlData) {\n        tests[\"Start Spark call: parseing response as XML\"] = false;\n    }\n    else {\n        tests[\"Start Spark call: parseing response as XML\"] = true;\n        if ((!xmlData.Command) || (!xmlData.Command.DialResult) || (!xmlData.Command.DialResult.CallId)) {\n            tests[\"Start Spark call: checking XML payload\"] = false;\n        }\n        else {\n            tests[\"Start Spark call: checking XML payload\"] = true;\n\n            var callId = xmlData.Command.DialResult.CallId;\n            postman.setEnvironmentVariable(\"_call\", callId);\n            tests[\"Start Spark call: retreived Call with id:\" + callId] = true\n        }\n    }\n}\n    \n    ",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "bb8c0cdc-b596-a17d-47f5-f8d78bbdd778",
-            "headers": "Authorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/status.xml",
-            "queryParams": [],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "GET",
-            "data": null,
-            "dataMode": "params",
-            "version": 2,
-            "auth": null,
-            "time": 1516018938022,
-            "name": "Status",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "folder": "542b3361-754c-4bb8-21cf-74ca7e78921c",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "c52f3cda-192a-1a21-4e77-db441ec8862b",
-            "headers": "Authorization: Basic {{credentials}}\nContent-Type: text/xml\n",
-            "headerData": [
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                },
-                {
-                    "key": "Content-Type",
-                    "value": "text/xml",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/putxml",
-            "queryParams": [],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "POST",
-            "data": [],
-            "dataMode": "raw",
-            "version": 2,
-            "auth": null,
-            "time": 1516020807240,
-            "name": "Command Standby Halfwake (utility)",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "isFromCollection": true,
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "rawModeData": "<Command>\r\n\t<Standby>\r\n\t\t<Halfwake/>\r\n\t</Standby>\r\n</Command>",
-            "folder": "a4952b24-7878-6417-4264-c54f3e2195fa",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "d0798869-92ad-8dc4-d15e-83f8a1382d1c",
-            "headers": "Content-Type: text/xml\nAuthorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Content-Type",
-                    "value": "text/xml",
-                    "description": "",
-                    "enabled": true
-                },
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/putxml",
-            "queryParams": [],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "POST",
-            "data": [],
-            "dataMode": "raw",
-            "auth": null,
-            "time": 1516020774327,
-            "name": "Command Brand Logo (awake)",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "isFromCollection": true,
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "rawModeData": "<Command>\r\n <UserInterface>\r\n \t<Branding>\r\n \t\t<Upload>\r\n \t\t\t<Type>Branding</Type>\r\n \t\t\t<body>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</body>\r\n \t\t</Upload>\r\n \t</Branding>\r\n </UserInterface>\r\n</Command>",
-            "folder": "a4952b24-7878-6417-4264-c54f3e2195fa",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "e9f2fc26-e43b-e5e8-117e-7316e5678431",
-            "headers": "Authorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/getxml?location=/Status/Audio/Volume",
-            "queryParams": [
-                {
-                    "key": "location",
-                    "value": "/Status/Audio/Volume",
-                    "equals": true,
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "GET",
-            "data": null,
-            "dataMode": "params",
-            "version": 2,
-            "auth": null,
-            "time": 1516018906231,
-            "name": "Status Audio Volume",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "folder": "542b3361-754c-4bb8-21cf-74ca7e78921c",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "f178e154-56d5-1093-a35a-7fcfed62854f",
-            "headers": "Content-Type: text/xml\nAuthorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Content-Type",
-                    "value": "text/xml",
-                    "description": "",
-                    "enabled": true
-                },
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/putxml",
-            "queryParams": [],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "POST",
-            "data": [],
-            "dataMode": "raw",
-            "auth": null,
-            "time": 1516020879658,
-            "name": "Configuration PeoplePresenceDetector On",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "rawModeData": "<Configuration>\n    <RoomAnalytics>\n        <PeoplePresenceDetector>On</PeoplePresenceDetector>\n    </RoomAnalytics>\n</Configuration>",
-            "folder": "d64a1b85-98d3-8e26-0989-d665cbd30320",
-            "currentHelper": null,
-            "helperAttributes": null
-        },
-        {
-            "id": "f506e81c-78d0-4a7a-f63b-ac95ae0b2e93",
-            "headers": "Content-Type: text/xml\nAuthorization: Basic {{credentials}}\n",
-            "headerData": [
-                {
-                    "key": "Content-Type",
-                    "value": "text/xml",
-                    "description": "",
-                    "enabled": true
-                },
-                {
-                    "key": "Authorization",
-                    "value": "Basic {{credentials}}",
-                    "description": "",
-                    "enabled": true
-                }
-            ],
-            "url": "{{endpoint}}/putxml",
-            "queryParams": [],
-            "events": [],
-            "pathVariables": [],
-            "pathVariableData": [],
-            "method": "POST",
-            "data": [],
-            "dataMode": "raw",
-            "auth": null,
-            "time": 1516020864330,
-            "name": "Configuration PeopleCountOutOfCall (on)",
-            "description": "",
-            "collectionId": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
-            "responses": [],
-            "collection_id": "683f728e-eb26-a36d-a759-6654b35c5612",
-            "rawModeData": "<Configuration>\n    <RoomAnalytics>\n        <PeopleCountOutOfCall>On</PeopleCountOutOfCall>\n    </RoomAnalytics>\n</Configuration>",
-            "folder": "d64a1b85-98d3-8e26-0989-d665cbd30320",
-            "currentHelper": null,
-            "helperAttributes": null
-        }
-    ]
+	"info": {
+		"_postman_id": "a84d1e2d-864e-c2c6-6d69-1a4ce9303cbf",
+		"name": "Cisco CE xAPI (as Integrator)",
+		"description": "xAPI is the Application Programming Interface (API) for Collaboration Endpoint software(Cisco CE and RoomOS), for both on-premise registered video conferencing devices (CUCM, VCS) as well as devices registered to Cisco’s cloud service (Cisco Webex Devices).\n\n**This collection gathers commands accessible to an 'Integrator' user, and local to the collaboration device.**\n\nWhich commands are available depends on the product, the back-end (on-premise, cloud), and the user role of the local user (admin, audit, integrator, roomcontrol, user). To get an overview of the commands, check the reference guide for the version of CE or RoomOS you are running. \nHere is a link to the guide for CE 9.8 and RoomOS as of September 2019: https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce98/collaboration-endpoint-software-api-reference-guide-ce98.pdf\n\n\nThis collection comes with default environment variables:\n- endpoint: replace with the LAN ip adress of your collection device, defaults to: http://192.168.1.32\n- credentials: replace with your integrator credentials, or one of the proposed below, defaults to: 'creds-integrator'\n- creds-integrator: defaults to 'aW50ZWdyYXRvcjppbnRlZ3JhdG9y', which corresponds to a base64 encoding of 'integrator:integrator' - the default credentials for the 'Integrator' role on [DevNet Sandbox RoomKit devices](https://github.com/CiscoDevNet/awesome-xapi#developer-tools)\n- creds-admin: defaults to 'cmVtb3Rlc3VwcG9ydDo2US82a0JDYnJ0DQo=', which corresponds to a base64 encoding of 'admin:ciscopsdt' - the default credentials for the \"Admin\" role on [DevNet Sandbox RoomKit devices](https://github.com/CiscoDevNet/awesome-xapi#developer-tools)\n- creds-localadmin: defaults to 'bG9jYWxhZG1pbjpjaXNjb3BzZHQ', which corresponds to a base64 encoding of \"localadmin:ciscopsdt\" - the default credentials for DevNet learning labs when addind an \"Admin\" role for cloud-registered Webex Devices running RoomOS.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "config & status",
+			"item": [
+				{
+					"name": "Status",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							}
+						],
+						"url": {
+							"raw": "{{endpoint}}/status.xml",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"status.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Status Audio Volume",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							}
+						],
+						"url": {
+							"raw": "{{endpoint}}/getxml?location=/Status/Audio/Volume",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"getxml"
+							],
+							"query": [
+								{
+									"key": "location",
+									"value": "/Status/Audio/Volume"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Configuration",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							}
+						],
+						"url": {
+							"raw": "{{endpoint}}/configuration.xml",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"configuration.xml"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "955f52fe-984b-4f9b-a868-a6ea1c72c0ea",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "c6135645-3f84-4021-89d0-26dc29ab445c",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "standby",
+			"item": [
+				{
+					"name": "Status Standby",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							}
+						],
+						"url": {
+							"raw": "{{endpoint}}/getxml?location=/Status/Standby",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"getxml"
+							],
+							"query": [
+								{
+									"key": "location",
+									"value": "/Status/Standby"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Command Standby Activate (turn off)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "text/xml"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<Command>\r\n\t<Standby>\r\n\t\t<Activate/>\r\n\t</Standby>\r\n</Command>"
+						},
+						"url": {
+							"raw": "{{endpoint}}/putxml",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"putxml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Command Standby Halfwake",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "text/xml"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<Command>\r\n\t<Standby>\r\n \t\t<Halfwake/>\r\n\t</Standby>\r\n</Command>"
+						},
+						"url": {
+							"raw": "{{endpoint}}/putxml",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"putxml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Command Standby Deactivate (turn on)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "text/xml"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<Command>\r\n\t<Standby>\r\n\t\t<Deactivate/>\r\n\t</Standby>\r\n</Command>"
+						},
+						"url": {
+							"raw": "{{endpoint}}/putxml",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"putxml"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ea37581c-f9bc-4b3f-b9c8-e53f837e7e93",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "83b99beb-3990-4d5f-84f4-a0b6babdc2ce",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "calls",
+			"item": [
+				{
+					"name": "Status Calls (ongoing)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							}
+						],
+						"url": {
+							"raw": "{{endpoint}}/getxml?location=/Status/Call",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"getxml"
+							],
+							"query": [
+								{
+									"key": "location",
+									"value": "/Status/Call"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Command Call (SIP)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "00810ab5-640c-4367-98a6-db48ef9abcba",
+								"type": "text/javascript",
+								"exec": [
+									"if (responseCode.code != 200) {",
+									"    tests[\"Start SIP call: failed\"] = false;",
+									"}",
+									"else {",
+									"    tests[\"Start SIP call: success\"] = true;",
+									"",
+									"    var xmlData = xml2Json(responseBody);",
+									"    console.log(xmlData);",
+									"    if (!xmlData) {",
+									"        tests[\"Start SIP call: parseing response as XML\"] = false;",
+									"    }",
+									"    else {",
+									"        tests[\"Start SIP call: parseing response as XML\"] = true;",
+									"        if ((!xmlData.Command) || (!xmlData.Command.DialResult) || (!xmlData.Command.DialResult.CallId)) {",
+									"            tests[\"Start SIP call: checking XML payload\"] = false;",
+									"        }",
+									"        else {",
+									"            tests[\"Start SIP call: checking XML payload\"] = true;",
+									"",
+									"            var callId = xmlData.Command.DialResult.CallId;",
+									"            postman.setEnvironmentVariable(\"_call\", callId);",
+									"            tests[\"Start SIP call: retreived Call with id:\" + callId] = true",
+									"        }",
+									"    }",
+									"}",
+									"    ",
+									"    "
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "text/xml"
+							},
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<Command>\r\n\t<Dial>\r\n\t\t<Number>stsfartz@cisco.com</Number>\r\n\t</Dial>\r\n</Command>"
+						},
+						"url": {
+							"raw": "{{endpoint}}/putxml",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"putxml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Command Call Disconnect",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "text/xml"
+							},
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<Command>\r\n\t<Call>\r\n\t\t<Disconnect>\r\n \t\t\t<CallId>{{_call}}</CallId>\r\n \t\t</Disconnect>\r\n\t</Call>\r\n</Command>"
+						},
+						"url": {
+							"raw": "{{endpoint}}/putxml",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"putxml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Command Call (SIP - Spark space)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "33195335-6a1a-4aed-ab5b-40626ed72ae2",
+								"type": "text/javascript",
+								"exec": [
+									"if (responseCode.code != 200) {",
+									"    tests[\"Start SIP call to Space: failed\"] = false;",
+									"}",
+									"else {",
+									"    tests[\"Start SIP call to Space: success\"] = true;",
+									"",
+									"    var xmlData = xml2Json(responseBody);",
+									"    console.log(xmlData);",
+									"    if (!xmlData) {",
+									"        tests[\"Start SIP call to Space: parseing response as XML\"] = false;",
+									"    }",
+									"    else {",
+									"        tests[\"Start SIP call to Space: parseing response as XML\"] = true;",
+									"        if ((!xmlData.Command) || (!xmlData.Command.DialResult) || (!xmlData.Command.DialResult.CallId)) {",
+									"            tests[\"Start SIP call to Space: checking XML payload\"] = false;",
+									"        }",
+									"        else {",
+									"            tests[\"Start SIP call to Space: checking XML payload\"] = true;",
+									"",
+									"            var callId = xmlData.Command.DialResult.CallId;",
+									"            postman.setEnvironmentVariable(\"_call\", callId);",
+									"            tests[\"Start SIP call to Space: retreived Call with id:\" + callId] = true",
+									"        }",
+									"    }",
+									"}",
+									"    ",
+									"    "
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "text/xml"
+							},
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<Command>\r\n\t<Dial>\r\n\t\t<Number>88430972830@meet.ciscospark.com</Number>\r\n\t</Dial>\r\n</Command>"
+						},
+						"url": {
+							"raw": "{{endpoint}}/putxml",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"putxml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Command Call (Spark Email)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "981c33e4-ed5a-490e-8dd6-2b9c0220fb80",
+								"type": "text/javascript",
+								"exec": [
+									"if (responseCode.code != 200) {",
+									"    tests[\"Start Spark call: failed\"] = false;",
+									"}",
+									"else {",
+									"    tests[\"Start Spark call: success\"] = true;",
+									"",
+									"    var xmlData = xml2Json(responseBody);",
+									"    console.log(xmlData);",
+									"    if (!xmlData) {",
+									"        tests[\"Start Spark call: parseing response as XML\"] = false;",
+									"    }",
+									"    else {",
+									"        tests[\"Start Spark call: parseing response as XML\"] = true;",
+									"        if ((!xmlData.Command) || (!xmlData.Command.DialResult) || (!xmlData.Command.DialResult.CallId)) {",
+									"            tests[\"Start Spark call: checking XML payload\"] = false;",
+									"        }",
+									"        else {",
+									"            tests[\"Start Spark call: checking XML payload\"] = true;",
+									"",
+									"            var callId = xmlData.Command.DialResult.CallId;",
+									"            postman.setEnvironmentVariable(\"_call\", callId);",
+									"            tests[\"Start Spark call: retreived Call with id:\" + callId] = true",
+									"        }",
+									"    }",
+									"}",
+									"    ",
+									"    "
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "text/xml"
+							},
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<Command>\r\n\t<Dial>\r\n \t\t<Number>devnet@cisco.com</Number>\r\n\t</Dial>\r\n</Command>"
+						},
+						"url": {
+							"raw": "{{endpoint}}/putxml",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"putxml"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "10b895eb-d250-4fe0-a7ea-4d9b84705476",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "ff93dcf1-3c46-4a94-88b2-110f5489e347",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "personalization",
+			"item": [
+				{
+					"name": "branding messages",
+					"item": [
+						{
+							"name": "Configuration CustomMessage (Awake)",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "text/xml"
+									},
+									{
+										"key": "Authorization",
+										"value": "Basic {{credentials}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "<Configuration>\r\n\t<UserInterface>\r\n\t\t<CustomMessage>I am a G33K</CustomMessage>\r\n\t</UserInterface>\r\n</Configuration>"
+								},
+								"url": {
+									"raw": "{{endpoint}}/putxml",
+									"host": [
+										"{{endpoint}}"
+									],
+									"path": [
+										"putxml"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Configuration Message (Halfwake)",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "text/xml"
+									},
+									{
+										"key": "Authorization",
+										"value": "Basic {{credentials}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "<Configuration>\r\n\t<UserInterface>\r\n\t\t<OSD>\r\n \t\t\t<HalfwakeMessage>I am an API addict</HalfwakeMessage>\r\n \t\t</OSD>\r\n\t</UserInterface>\r\n</Configuration>"
+								},
+								"url": {
+									"raw": "{{endpoint}}/putxml",
+									"host": [
+										"{{endpoint}}"
+									],
+									"path": [
+										"putxml"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "f76a56ec-098e-45e4-8c07-5ddae6f1115d",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "bf720d44-5f9b-470a-ba36-ea8946bdfb75",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "branding logos",
+					"item": [
+						{
+							"name": "Command Brand Logo (Halfwake)",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "text/xml"
+									},
+									{
+										"key": "Authorization",
+										"value": "Basic {{credentials}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "<Command>\r\n <UserInterface>\r\n \t<Branding>\r\n \t\t<Upload>\r\n \t\t\t<Type>HalfwakeBranding</Type>\r\n \t\t\t<body>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</body>\r\n \t\t</Upload>\r\n \t</Branding>\r\n </UserInterface>\r\n</Command>"
+								},
+								"url": {
+									"raw": "{{endpoint}}/putxml",
+									"host": [
+										"{{endpoint}}"
+									],
+									"path": [
+										"putxml"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Command Brand Logo (Awake)",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "text/xml"
+									},
+									{
+										"key": "Authorization",
+										"value": "Basic {{credentials}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "<Command>\r\n <UserInterface>\r\n \t<Branding>\r\n \t\t<Upload>\r\n \t\t\t<Type>Branding</Type>\r\n \t\t\t<body>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</body>\r\n \t\t</Upload>\r\n \t</Branding>\r\n </UserInterface>\r\n</Command>"
+								},
+								"url": {
+									"raw": "{{endpoint}}/putxml",
+									"host": [
+										"{{endpoint}}"
+									],
+									"path": [
+										"putxml"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "4ae32375-4969-4c57-b8a5-21982318f893",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "09c5f50e-266e-4687-b63b-8b452788752c",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "background",
+					"item": [
+						{
+							"name": "Command Custom WallPaper Upload (Awake)",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "text/xml"
+									},
+									{
+										"key": "Authorization",
+										"value": "Basic {{credentials}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "<Command>\r\n <UserInterface>\r\n \t<Branding>\r\n \t\t<Upload>\r\n \t\t\t<Type>Background</Type>\r\n \t\t\t<body>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</body>\r\n \t\t</Upload>\r\n \t</Branding>\r\n </UserInterface>\r\n</Command>"
+								},
+								"url": {
+									"raw": "{{endpoint}}/putxml",
+									"host": [
+										"{{endpoint}}"
+									],
+									"path": [
+										"putxml"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Configuration Wallpaper (Auto)",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "text/xml"
+									},
+									{
+										"key": "Authorization",
+										"value": "Basic {{credentials}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "<Configuration>\r\n <UserInterface>\r\n \t<Wallpaper>Auto</Wallpaper>\r\n </UserInterface>\r\n</Configuration>"
+								},
+								"url": {
+									"raw": "{{endpoint}}/putxml",
+									"host": [
+										"{{endpoint}}"
+									],
+									"path": [
+										"putxml"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Configuration Wallpaper (Custom)",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "text/xml"
+									},
+									{
+										"key": "Authorization",
+										"value": "Basic {{credentials}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "<Configuration>\r\n <UserInterface>\r\n \t<Wallpaper>Custom</Wallpaper>\r\n </UserInterface>\r\n</Configuration>"
+								},
+								"url": {
+									"raw": "{{endpoint}}/putxml",
+									"host": [
+										"{{endpoint}}"
+									],
+									"path": [
+										"putxml"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Command Custom WallPaper Delete",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "text/xml"
+									},
+									{
+										"key": "Authorization",
+										"value": "Basic {{credentials}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "<Command>\r\n <UserInterface>\r\n \t<Branding>\r\n \t\t<Delete>\r\n \t\t\t<Type>Background</Type>\r\n \t\t</Delete>\r\n \t</Branding>\r\n </UserInterface>\r\n</Command>"
+								},
+								"url": {
+									"raw": "{{endpoint}}/putxml",
+									"host": [
+										"{{endpoint}}"
+									],
+									"path": [
+										"putxml"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "turn Standby to Awake",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "text/xml"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<Command>\r\n\t<Standby>\r\n\t\t<Off/>\r\n\t</Standby>\r\n</Command>"
+						},
+						"url": {
+							"raw": "{{endpoint}}/putxml",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"putxml"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "466a6a96-908b-4a7f-959f-a8931230b572",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "a0de0505-6f81-44e0-bf97-f6785aa04fb5",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "room analytics",
+			"item": [
+				{
+					"name": "Status PeopleCount",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							}
+						],
+						"url": {
+							"raw": "{{endpoint}}/getxml?location=/Status/RoomAnalytics/PeopleCount",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"getxml"
+							],
+							"query": [
+								{
+									"key": "location",
+									"value": "/Status/RoomAnalytics/PeopleCount"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Command Standby Deactivate (turn on)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "text/xml"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<Command>\r\n\t<Standby>\r\n\t\t<Deactivate/>\r\n\t</Standby>\r\n</Command>"
+						},
+						"url": {
+							"raw": "{{endpoint}}/putxml",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"putxml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Configuration PeopleCountOutOfCall (on)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "text/xml"
+							},
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<Configuration>\n    <RoomAnalytics>\n        <PeopleCountOutOfCall>On</PeopleCountOutOfCall>\n    </RoomAnalytics>\n</Configuration>"
+						},
+						"url": {
+							"raw": "{{endpoint}}/putxml",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"putxml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Configuration PeopleCountOutOfCall",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							}
+						],
+						"url": {
+							"raw": "{{endpoint}}/getxml?location=/Configuration/RoomAnalytics/PeopleCountOutOfCall",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"getxml"
+							],
+							"query": [
+								{
+									"key": "location",
+									"value": "/Configuration/RoomAnalytics/PeopleCountOutOfCall"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Status PeoplePresence",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							}
+						],
+						"url": {
+							"raw": "{{endpoint}}/getxml?location=/Status/RoomAnalytics/PeoplePresence",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"getxml"
+							],
+							"query": [
+								{
+									"key": "location",
+									"value": "/Status/RoomAnalytics/PeoplePresence"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Configuration PeoplePresenceDetector",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							}
+						],
+						"url": {
+							"raw": "{{endpoint}}/getxml?location=/Configuration/RoomAnalytics/PeoplePresenceDetector",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"getxml"
+							],
+							"query": [
+								{
+									"key": "location",
+									"value": "/Configuration/RoomAnalytics/PeoplePresenceDetector"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Configuration PeoplePresenceDetector On",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "text/xml"
+							},
+							{
+								"key": "Authorization",
+								"value": "Basic {{credentials}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<Configuration>\n    <RoomAnalytics>\n        <PeoplePresenceDetector>On</PeoplePresenceDetector>\n    </RoomAnalytics>\n</Configuration>"
+						},
+						"url": {
+							"raw": "{{endpoint}}/putxml",
+							"host": [
+								"{{endpoint}}"
+							],
+							"path": [
+								"putxml"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Available only on room devices",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "66a3c99f-9313-4efc-a7ac-e5846929089f",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "6ef83a3c-225b-45e2-b158-d67144d5aa1b",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "a15c773a-87ee-4e82-bf9b-fcac878fd6d3",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "455dc0c0-8b20-4b60-9868-2aff97e631b4",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "2790f611-6877-46b7-96f0-d2736f4f9b1d",
+			"key": "endpoint",
+			"value": "http://192.168.1.32"
+		},
+		{
+			"id": "44ebaa09-199f-4543-aef0-1dad68c14312",
+			"key": "credentials",
+			"value": "{{creds-integrator}}"
+		},
+		{
+			"id": "091211c0-1cc3-4513-bd65-776f5dc4e26d",
+			"key": "creds-integrator",
+			"value": "aW50ZWdyYXRvcjppbnRlZ3JhdG9y"
+		},
+		{
+			"id": "17c595df-d412-4499-aad4-5ac7ccf66692",
+			"key": "creds-admin",
+			"value": "cmVtb3Rlc3VwcG9ydDo2US82a0JDYnJ0DQo="
+		},
+		{
+			"id": "f301e549-4619-4218-bd00-6e87aa37ede7",
+			"key": "creds-localadmin",
+			"value": "bG9jYWxhZG1pbjpjaXNjb3BzZHQ="
+		}
+	],
+	"protocolProfileBehavior": {}
 }
